@@ -1,0 +1,152 @@
+#thegoodplace-badge {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  z-index: 2147483647;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  font-size: 14px;
+  line-height: 1.4;
+  color: #333;
+}
+
+.tgp-badge {
+  background: #fff;
+  border-radius: 16px;
+  box-shadow: 0 4px 24px rgba(0, 0, 0, 0.15);
+  overflow: hidden;
+  transition: all 0.3s ease;
+  border: 2px solid var(--tgp-color);
+  max-width: 72px;
+}
+
+.tgp-badge.tgp-expanded {
+  max-width: 320px;
+}
+
+.tgp-badge-header {
+  display: flex;
+  align-items: center;
+  gap: 4px;
+  padding: 10px 14px;
+  cursor: pointer;
+  user-select: none;
+  white-space: nowrap;
+}
+
+.tgp-badge-header:hover {
+  background: #f5f5f5;
+}
+
+.tgp-badge-emoji {
+  font-size: 18px;
+}
+
+.tgp-badge-score {
+  font-size: 20px;
+  font-weight: 700;
+  color: var(--tgp-color);
+}
+
+.tgp-badge-slash {
+  font-size: 12px;
+  color: #999;
+  display: none;
+}
+
+.tgp-expanded .tgp-badge-slash {
+  display: inline;
+}
+
+.tgp-badge-panel {
+  max-height: 0;
+  overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
+  padding: 0 14px;
+}
+
+.tgp-badge-panel.tgp-open {
+  max-height: 500px;
+  padding: 0 14px 14px;
+}
+
+.tgp-brand-name {
+  font-size: 16px;
+  font-weight: 700;
+  margin-bottom: 2px;
+}
+
+.tgp-label {
+  font-size: 12px;
+  font-weight: 600;
+  color: var(--tgp-color);
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  margin-bottom: 12px;
+}
+
+.tgp-scores {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+  margin-bottom: 12px;
+}
+
+.tgp-score-row {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+}
+
+.tgp-score-name {
+  font-size: 11px;
+  width: 90px;
+  flex-shrink: 0;
+  color: #666;
+}
+
+.tgp-score-bar-bg {
+  flex: 1;
+  height: 6px;
+  background: #e0e0e0;
+  border-radius: 3px;
+  overflow: hidden;
+}
+
+.tgp-score-bar {
+  height: 100%;
+  border-radius: 3px;
+  transition: width 0.5s ease;
+}
+
+.tgp-score-value {
+  font-size: 11px;
+  font-weight: 600;
+  width: 16px;
+  text-align: right;
+  color: #555;
+}
+
+.tgp-note {
+  font-size: 12px;
+  color: #555;
+  margin-bottom: 8px;
+  line-height: 1.5;
+}
+
+.tgp-fonti {
+  font-size: 10px;
+  color: #999;
+  margin-bottom: 8px;
+}
+
+.tgp-fonte {
+  text-decoration: underline;
+}
+
+.tgp-footer {
+  font-size: 10px;
+  color: #bbb;
+  text-align: center;
+  padding-top: 8px;
+  border-top: 1px solid #eee;
+}

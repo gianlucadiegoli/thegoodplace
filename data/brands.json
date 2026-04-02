@@ -1,0 +1,276 @@
+{
+  "meta": {
+    "version": "1.0.0",
+    "lastUpdated": "2026-04-02",
+    "criteria": {
+      "ambiente": "Impatto ambientale: emissioni CO2, energie rinnovabili, economia circolare",
+      "diritti_lavoro": "Diritti dei lavoratori: salari equi, sicurezza, no sfruttamento",
+      "trasparenza": "Trasparenza fiscale: pagamento tasse, no paradisi fiscali",
+      "governance": "Governance etica: diversita, anticorruzione, lobby responsabile",
+      "comunita": "Impatto sulla comunita: investimenti sociali, inclusione, accessibilita",
+      "armamenti": "Non coinvolgimento in armamenti e settori controversi"
+    }
+  },
+  "brands": {
+    "patagonia.com": {
+      "name": "Patagonia",
+      "scores": {
+        "ambiente": 9,
+        "diritti_lavoro": 8,
+        "trasparenza": 9,
+        "governance": 9,
+        "comunita": 9,
+        "armamenti": 10
+      },
+      "note": "B-Corp certificata. Leader nella sostenibilita ambientale. Dona 1% del fatturato a cause ambientali.",
+      "fonti": ["bcorporation.net", "patagonia.com/our-footprint"]
+    },
+    "amazon.com": {
+      "name": "Amazon",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 3,
+        "trasparenza": 4,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 6
+      },
+      "note": "Critiche su condizioni di lavoro nei magazzini. Climate Pledge per carbon neutral entro 2040. Pratiche fiscali aggressive.",
+      "fonti": ["oxfam.org", "theguardian.com"]
+    },
+    "apple.com": {
+      "name": "Apple",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 6,
+        "comunita": 6,
+        "armamenti": 10
+      },
+      "note": "Carbon neutral per le operations. Critiche su supply chain (Foxconn). Ottimizzazione fiscale aggressiva.",
+      "fonti": ["apple.com/environment", "amnesty.org"]
+    },
+    "nike.com": {
+      "name": "Nike",
+      "scores": {
+        "ambiente": 6,
+        "diritti_lavoro": 4,
+        "trasparenza": 5,
+        "governance": 6,
+        "comunita": 6,
+        "armamenti": 10
+      },
+      "note": "Miglioramenti nella sostenibilita con Move to Zero. Storico di problemi nella supply chain.",
+      "fonti": ["fashionrevolution.org", "nike.com/sustainability"]
+    },
+    "google.com": {
+      "name": "Google (Alphabet)",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 7,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 6,
+        "armamenti": 7
+      },
+      "note": "Carbon neutral dal 2007. Critiche su privacy, antitrust e collaborazioni militari (Project Maven).",
+      "fonti": ["sustainability.google", "eff.org"]
+    },
+    "ikea.com": {
+      "name": "IKEA",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 6,
+        "trasparenza": 5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 10
+      },
+      "note": "Investimenti importanti in rinnovabili. Struttura societaria complessa per ottimizzazione fiscale.",
+      "fonti": ["ikea.com/sustainability", "taxjustice.net"]
+    },
+    "nestle.com": {
+      "name": "Nestle",
+      "scores": {
+        "ambiente": 4,
+        "diritti_lavoro": 4,
+        "trasparenza": 4,
+        "governance": 4,
+        "comunita": 3,
+        "armamenti": 10
+      },
+      "note": "Controversie su acqua, deforestazione, lavoro minorile nel cacao. Impegni di miglioramento recenti.",
+      "fonti": ["corporateaccountability.org", "rainforest-action.org"]
+    },
+    "microsoft.com": {
+      "name": "Microsoft",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 7,
+        "trasparenza": 6,
+        "governance": 7,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "note": "Obiettivo carbon negative entro 2030. Contratti militari significativi (JEDI/Azure). Buone politiche HR.",
+      "fonti": ["microsoft.com/sustainability", "techcrunch.com"]
+    },
+    "zara.com": {
+      "name": "Zara (Inditex)",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 4,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 10
+      },
+      "note": "Fast fashion con impatto ambientale significativo. Programma Join Life per sostenibilita. Critiche sulla supply chain.",
+      "fonti": ["fashionrevolution.org", "cleanclothes.org"]
+    },
+    "tesla.com": {
+      "name": "Tesla",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 4,
+        "trasparenza": 5,
+        "governance": 3,
+        "comunita": 5,
+        "armamenti": 9
+      },
+      "note": "Leader nella transizione energetica. Critiche su condizioni di lavoro e governance concentrata.",
+      "fonti": ["tesla.com/impact", "reuters.com"]
+    },
+    "unicreditgroup.eu": {
+      "name": "UniCredit",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 6,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 4
+      },
+      "note": "Finanziamento a settori fossili. Coinvolgimento nel finanziamento di armamenti. Impegni ESG in corso.",
+      "fonti": ["banktrack.org", "dontbankonthebomb.com"]
+    },
+    "intesasanpaolo.com": {
+      "name": "Intesa Sanpaolo",
+      "scores": {
+        "ambiente": 6,
+        "diritti_lavoro": 6,
+        "trasparenza": 6,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "note": "Tra le migliori banche italiane per ESG. Investimenti in inclusione sociale. Ancora esposizione a fossili.",
+      "fonti": ["group.intesasanpaolo.com/sustainability", "banktrack.org"]
+    },
+    "bancaetica.it": {
+      "name": "Banca Etica",
+      "scores": {
+        "ambiente": 9,
+        "diritti_lavoro": 9,
+        "trasparenza": 10,
+        "governance": 9,
+        "comunita": 10,
+        "armamenti": 10
+      },
+      "note": "Unica banca italiana interamente dedicata alla finanza etica. Trasparenza totale sugli impieghi.",
+      "fonti": ["bancaetica.it", "gabv.org"]
+    },
+    "coca-cola.com": {
+      "name": "Coca-Cola",
+      "scores": {
+        "ambiente": 4,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 10
+      },
+      "note": "Maggiore produttore di rifiuti plastici al mondo. Critiche sull'uso dell'acqua. Impegni su riciclo.",
+      "fonti": ["breakfreefromplastic.org", "corporateaccountability.org"]
+    },
+    "shell.com": {
+      "name": "Shell",
+      "scores": {
+        "ambiente": 2,
+        "diritti_lavoro": 5,
+        "trasparenza": 4,
+        "governance": 4,
+        "comunita": 3,
+        "armamenti": 8
+      },
+      "note": "Tra le aziende piu inquinanti al mondo. Condannata per insufficiente azione climatica. Greenwashing.",
+      "fonti": ["clientearth.org", "carbonmajors.org"]
+    },
+    "eni.com": {
+      "name": "ENI",
+      "scores": {
+        "ambiente": 3,
+        "diritti_lavoro": 6,
+        "trasparenza": 4,
+        "governance": 4,
+        "comunita": 4,
+        "armamenti": 8
+      },
+      "note": "Importante impatto climatico. Coinvolta in casi di corruzione internazionale. Transizione energetica lenta.",
+      "fonti": ["recommon.org", "globalwitness.org"]
+    },
+    "fairphone.com": {
+      "name": "Fairphone",
+      "scores": {
+        "ambiente": 9,
+        "diritti_lavoro": 9,
+        "trasparenza": 9,
+        "governance": 9,
+        "comunita": 8,
+        "armamenti": 10
+      },
+      "note": "Smartphone modulare ed etico. Materiali equi e riciclati. Trasparenza sulla supply chain.",
+      "fonti": ["fairphone.com/impact", "bcorporation.net"]
+    },
+    "h&m.com": {
+      "name": "H&M",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 4,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 10
+      },
+      "note": "Fast fashion. Iniziative di riciclo ma accusata di greenwashing. Living wage non garantito nella supply chain.",
+      "fonti": ["cleanclothes.org", "fashionchecker.org"]
+    },
+    "facebook.com": {
+      "name": "Meta (Facebook)",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 6,
+        "trasparenza": 3,
+        "governance": 3,
+        "comunita": 3,
+        "armamenti": 9
+      },
+      "note": "Energie rinnovabili per i data center. Gravi problemi di privacy, disinformazione e impatto sulla salute mentale.",
+      "fonti": ["eff.org", "whistlebloweraid.org"]
+    },
+    "meta.com": {
+      "name": "Meta",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 6,
+        "trasparenza": 3,
+        "governance": 3,
+        "comunita": 3,
+        "armamenti": 9
+      },
+      "note": "Energie rinnovabili per i data center. Gravi problemi di privacy, disinformazione e impatto sulla salute mentale.",
+      "fonti": ["eff.org", "whistlebloweraid.org"]
+    }
+  }
+}
