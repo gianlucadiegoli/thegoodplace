@@ -11,7 +11,8 @@
     "build-db:curated": "node scripts/build-db.mjs --only=curated",
     "build-db:goodonyou": "node scripts/build-db.mjs --only=goodonyou",
     "build-db:ethicalconsumer": "node scripts/build-db.mjs --only=ethicalconsumer",
-    "build-db:cdp": "node scripts/build-db.mjs --only=cdp"
+    "build-db:cdp": "node scripts/build-db.mjs --only=cdp",
+    "package": "node scripts/package.mjs"
   },
   "engines": {
     "node": ">=18"
