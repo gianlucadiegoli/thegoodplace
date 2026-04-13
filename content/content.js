@@ -14,10 +14,10 @@
   );
 
   function getScoreColor(score) {
-    if (score >= 8) return "#2e7d32";
-    if (score >= 6) return "#f9a825";
-    if (score >= 4) return "#ef6c00";
-    return "#c62828";
+    if (score >= 8) return "#2e7d32"; // verde: buono/ottimo
+    if (score >= 6) return "#f9a825"; // giallo: sufficiente (neutro)
+    if (score >= 4) return "#ef6c00"; // arancione: insufficiente
+    return "#c62828";                 // rosso: gravemente insufficiente
   }
 
   function getScoreEmoji(score) {
@@ -28,10 +28,10 @@
   }
 
   function getScoreLabel(score) {
-    if (score >= 8) return "Eccellente";
-    if (score >= 6) return "Discreto";
+    if (score >= 8) return "Buono";
+    if (score >= 6) return "Sufficiente";
     if (score >= 4) return "Insufficiente";
-    return "Critico";
+    return "Gravemente insufficiente";
   }
 
   function createBadge(data) {

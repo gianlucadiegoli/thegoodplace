@@ -11,12 +11,13 @@ const CRITERIA = [
 ];
 
 /**
- * Punteggio di partenza neutrale (5/10) per ogni criterio.
+ * Punteggio di partenza neutrale (6/10) per ogni criterio.
+ * 6 = sufficienza (non ho elementi per giudicare, assumo neutro).
  * Ogni fonte aggiunge/sottrae punti sui criteri rilevanti.
  */
 export function baselineScores() {
   const s = {};
-  for (const c of CRITERIA) s[c] = 5;
+  for (const c of CRITERIA) s[c] = 6;
   return s;
 }
 

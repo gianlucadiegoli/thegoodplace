@@ -15,10 +15,10 @@ function getScoreColor(score) {
 }
 
 function getScoreLabel(score) {
-  if (score >= 8) return "Eccellente";
-  if (score >= 6) return "Discreto";
+  if (score >= 8) return "Buono";
+  if (score >= 6) return "Sufficiente";
   if (score >= 4) return "Insufficiente";
-  return "Critico";
+  return "Gravemente insufficiente";
 }
 
 chrome.tabs.query({ active: true, currentWindow: true }, (tabs) => {
