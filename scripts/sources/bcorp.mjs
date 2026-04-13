@@ -85,6 +85,7 @@ async function fetchTypesenseAll(maxPages) {
         page,
         exhaustive_search: true,
         filter_by: "isCertified:=true",
+        include_fields: "slug,name,latestVerifiedScore,industry,hqCountry",
       }],
     };
     const r = await fetch(url, {
@@ -98,7 +99,17 @@ async function fetchTypesenseAll(maxPages) {
     const data = await r.json();
     const hits = data.results?.[0]?.hits || [];
     const found = data.results?.[0]?.found || 0;
-    results.push(...hits.map((h) => h.document));
+    for (const h of hits) {
+      const d = h.document;
+      // tieni solo i campi essenziali, scarta description/websiteKeywords ecc.
+      results.push({
+        slug: d.slug,
+        name: d.name,
+        latestVerifiedScore: d.latestVerifiedScore,
+        industry: d.industry,
+        hqCountry: d.hqCountry,
+      });
+    }
     if (page === 1) console.log(`    totale certificate: ${found}`);
     if (results.length >= found || hits.length === 0) break;
   }
