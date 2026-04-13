@@ -1,77 +1,96 @@
 // Fonte: B Lab / B Corp Directory (https://www.bcorporation.net/en-us/find-a-b-corp)
 //
-// Il sito usa Algolia per la ricerca. L'API key e l'app ID sono pubblicamente
-// esposti nel JS del sito ufficiale. Qui li usiamo per scaricare tutte le
-// aziende certificate.
+// Il sito e' migrato da Algolia a Typesense. Le credenziali di ricerca
+// sono pubbliche (la chiave e' search-only) ed estratte dalle richieste
+// di rete del sito ufficiale.
 //
-// NOTA: B Lab potrebbe cambiare questi parametri. In caso di errore,
-// controlla le richieste di rete su https://www.bcorporation.net
-// cercando una chiamata ad algolia.net.
+// Se smette di funzionare: apri bcorporation.net, DevTools -> Network,
+// filtra "typesense", esegui una ricerca e leggi i nuovi valori nella
+// Request URL / Request Headers / Payload.
 
-const ALGOLIA_APP_ID = "OUP2SH13CR";
-const ALGOLIA_API_KEY = "5dcc4fcb88ac89e5c5ba4945ae41a165"; // search-only public key
-const INDEX_NAME = "bcorp_production";
+const TYPESENSE_HOST = "94eo8lmsqa0nd3j5p.a1.typesense.net";
+const TYPESENSE_API_KEY = "eoWf8NTNsTFdaxcxNSuyaKAjLeV4T3F0"; // search-only
+const COLLECTION = "companies-production-en-us";
 
-const HITS_PER_PAGE = 1000;
+const PER_PAGE = 250; // max consentito da Typesense
 
-export async function fetchBCorps({ maxPages = 10 } = {}) {
+export async function fetchBCorps({ maxPages = 50 } = {}) {
   const results = [];
 
-  for (let page = 0; page < maxPages; page++) {
-    const url = `https://${ALGOLIA_APP_ID.toLowerCase()}-dsn.algolia.net/1/indexes/${INDEX_NAME}/query`;
+  for (let page = 1; page <= maxPages; page++) {
+    const url = `https://${TYPESENSE_HOST}/multi_search?x-typesense-api-key=${TYPESENSE_API_KEY}`;
 
     const body = {
-      params: `hitsPerPage=${HITS_PER_PAGE}&page=${page}&query=`,
+      searches: [
+        {
+          collection: COLLECTION,
+          q: "*",
+          query_by: "name",
+          per_page: PER_PAGE,
+          page,
+          exhaustive_search: true,
+        },
+      ],
     };
 
     const r = await fetch(url, {
       method: "POST",
       headers: {
-        "X-Algolia-API-Key": ALGOLIA_API_KEY,
-        "X-Algolia-Application-Id": ALGOLIA_APP_ID,
-        "Content-Type": "application/json",
+        "Content-Type": "text/plain",
+        Origin: "https://www.bcorporation.net",
       },
       body: JSON.stringify(body),
     });
 
     if (!r.ok) {
-      throw new Error(`B Corp API errore: ${r.status} ${await r.text()}`);
+      throw new Error(`B Corp Typesense errore: ${r.status} ${await r.text()}`);
     }
 
     const data = await r.json();
-    results.push(...data.hits);
+    const hits = data.results?.[0]?.hits || [];
+    results.push(...hits);
 
-    console.log(`  B Corp: pagina ${page + 1}/${data.nbPages}, aziende: ${results.length}`);
+    const total = data.results?.[0]?.found || 0;
+    console.log(`  B Corp: pagina ${page}, scaricate ${results.length}/${total}`);
 
-    if (page + 1 >= data.nbPages) break;
+    if (results.length >= total || hits.length === 0) break;
   }
 
   return results.map(normalizeBCorp).filter(Boolean);
 }
 
 function normalizeBCorp(hit) {
-  const website = hit.website || hit.url || hit.company_website;
-  if (!website) return null;
+  const doc = hit.document || hit;
 
+  // Il campo website puo' chiamarsi in modi diversi; provo varie combinazioni
+  const website =
+    doc.website ||
+    doc.websiteUrl ||
+    doc.url ||
+    doc.companyWebsite ||
+    (Array.isArray(doc.websiteKeywords) ? doc.websiteKeywords[0] : doc.websiteKeywords);
+
+  if (!website) return null;
   const domain = extractDomain(website);
   if (!domain) return null;
 
   return {
     source: "bcorp",
     domain,
-    name: hit.company_name || hit.name,
-    bcorp_score: hit.overall_score || hit.current_score || 80,
-    industry: hit.industry_category || hit.sector,
-    country: hit.country,
-    certified_since: hit.date_first_certified || hit.current_status_date,
-    raw: hit,
+    name: doc.name || doc.companyName,
+    bcorp_score: doc.overallScore || doc.currentScore || doc.score || 85,
+    industry: doc.industry || doc.sector,
+    country: doc.hqCountry || doc.country,
+    raw: doc,
   };
 }
 
 function extractDomain(url) {
   try {
-    if (!/^https?:\/\//.test(url)) url = "https://" + url;
-    return new URL(url).hostname.replace(/^www\./, "").toLowerCase();
+    let s = String(url).trim();
+    if (!s) return null;
+    if (!/^https?:\/\//i.test(s)) s = "https://" + s;
+    return new URL(s).hostname.replace(/^www\./, "").toLowerCase();
   } catch {
     return null;
   }
