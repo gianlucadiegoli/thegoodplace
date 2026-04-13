@@ -2,13 +2,16 @@
   "meta": {
     "version": "2.0.0",
     "lastUpdated": "2026-04-13",
-    "totalBrands": 43,
+    "totalBrands": 125,
     "sources": [
       "B Corp Directory (bcorporation.net)",
       "Wikidata (wikidata.org)",
       "Banking on Climate Chaos 2024 (bankingonclimatechaos.org)",
       "Don't Bank on the Bomb 2024 (dontbankonthebomb.com)",
-      "Carbon Majors (influencemap.org)"
+      "Carbon Majors (influencemap.org)",
+      "Good On You (goodonyou.eco)",
+      "Ethical Consumer (ethicalconsumer.org)",
+      "CDP - Carbon Disclosure Project (cdp.net)"
     ],
     "criteria": {
       "ambiente": "Impatto ambientale: emissioni CO2, finanza fossile, economia circolare",
@@ -139,34 +142,36 @@
     "hsbc.com": {
       "name": "HSBC",
       "scores": {
-        "ambiente": 2.3,
+        "ambiente": 5.3,
         "diritti_lavoro": 5,
-        "trasparenza": 5,
+        "trasparenza": 6,
         "governance": 4.2,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 4.4,
-      "note": "Finanza fossile: 183 mld USD (2016-2023).",
+      "overall": 5.1,
+      "note": "Finanza fossile: 183 mld USD (2016-2023). CDP Climate A List.",
       "fonti": [
-        "Banking on Climate Chaos 2024"
+        "Banking on Climate Chaos 2024",
+        "CDP"
       ]
     },
     "bnpparibas.com": {
       "name": "BNP Paribas",
       "scores": {
-        "ambiente": 2.4,
+        "ambiente": 5.4,
         "diritti_lavoro": 5,
-        "trasparenza": 5,
+        "trasparenza": 6,
         "governance": 3.2,
         "comunita": 5,
         "armamenti": 0
       },
-      "overall": 3.4,
-      "note": "Finanza fossile: 155 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
+      "overall": 4.1,
+      "note": "Finanza fossile: 155 mld USD (2016-2023). Finanziatore di armamenti nucleari. CDP Climate A List.",
       "fonti": [
         "Banking on Climate Chaos 2024",
-        "Don't Bank on the Bomb 2024"
+        "Don't Bank on the Bomb 2024",
+        "CDP"
       ]
     },
     "unicreditgroup.eu": {
@@ -207,15 +212,16 @@
       "scores": {
         "ambiente": 0,
         "diritti_lavoro": 5,
-        "trasparenza": 5,
+        "trasparenza": 3.5,
         "governance": 5,
         "comunita": 2,
         "armamenti": 5
       },
-      "overall": 3.7,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster.",
+      "overall": 3.4,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster. CDP Climate: F (non disclosure).",
       "fonti": [
-        "Carbon Majors"
+        "Carbon Majors",
+        "CDP"
       ]
     },
     "shell.com": {
@@ -239,15 +245,16 @@
       "scores": {
         "ambiente": 0,
         "diritti_lavoro": 5,
-        "trasparenza": 3,
+        "trasparenza": 1.5,
         "governance": 5,
         "comunita": 2,
         "armamenti": 5
       },
-      "overall": 3.3,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster, greenwashing.",
+      "overall": 3.1,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster, greenwashing. CDP Climate: F (non disclosure).",
       "fonti": [
-        "Carbon Majors"
+        "Carbon Majors",
+        "CDP"
       ]
     },
     "bp.com": {
@@ -287,15 +294,16 @@
       "scores": {
         "ambiente": 0,
         "diritti_lavoro": 5,
-        "trasparenza": 5,
+        "trasparenza": 3.5,
         "governance": 5,
         "comunita": 2,
         "armamenti": 5
       },
-      "overall": 3.7,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster.",
+      "overall": 3.4,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster. CDP Climate: F (non disclosure).",
       "fonti": [
-        "Carbon Majors"
+        "Carbon Majors",
+        "CDP"
       ]
     },
     "eni.com": {
@@ -526,17 +534,18 @@
     "apple.com": {
       "name": "Apple",
       "scores": {
-        "ambiente": 5,
+        "ambiente": 8,
         "diritti_lavoro": 2,
-        "trasparenza": 2,
+        "trasparenza": 3,
         "governance": 2,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 3.5,
-      "note": "Controversie: tax_evasion, labor_violation.",
+      "overall": 4.2,
+      "note": "Controversie: tax_evasion, labor_violation. CDP Climate A List.",
       "fonti": [
-        "ICIJ"
+        "ICIJ",
+        "CDP"
       ]
     },
     "ikea.com": {
@@ -558,49 +567,52 @@
     "zara.com": {
       "name": "Zara (Inditex)",
       "scores": {
-        "ambiente": 3,
+        "ambiente": 1.3,
         "diritti_lavoro": 0,
-        "trasparenza": 5,
+        "trasparenza": 4,
         "governance": 4,
-        "comunita": 5,
+        "comunita": 4.1,
         "armamenti": 5
       },
-      "overall": 3.7,
-      "note": "Controversie: labor_violation.",
+      "overall": 3.1,
+      "note": "Controversie: labor_violation. Good On You: Not Good Enough.",
       "fonti": [
-        "Clean Clothes Campaign"
+        "Clean Clothes Campaign",
+        "Good On You"
       ]
     },
     "hm.com": {
       "name": "H&M",
       "scores": {
-        "ambiente": 2,
+        "ambiente": 0.3,
         "diritti_lavoro": 0,
-        "trasparenza": 3,
+        "trasparenza": 2,
         "governance": 4,
-        "comunita": 5,
+        "comunita": 4.1,
         "armamenti": 5
       },
-      "overall": 3.2,
-      "note": "Controversie: labor_violation, greenwashing.",
+      "overall": 2.6,
+      "note": "Controversie: labor_violation, greenwashing. Good On You: Not Good Enough.",
       "fonti": [
-        "Clean Clothes Campaign"
+        "Clean Clothes Campaign",
+        "Good On You"
       ]
     },
     "shein.com": {
       "name": "Shein",
       "scores": {
-        "ambiente": 3,
+        "ambiente": 0,
         "diritti_lavoro": 0,
-        "trasparenza": 5,
+        "trasparenza": 4,
         "governance": 4,
-        "comunita": 2,
+        "comunita": 0.3,
         "armamenti": 5
       },
-      "overall": 3.2,
-      "note": "Controversie: labor_violation, human_rights.",
+      "overall": 2.2,
+      "note": "Controversie: labor_violation, human_rights. Good On You: We Avoid.",
       "fonti": [
-        "Clean Clothes Campaign"
+        "Clean Clothes Campaign",
+        "Good On You"
       ]
     },
     "facebook.com": {
@@ -638,33 +650,36 @@
     "nestle.com": {
       "name": "Nestle",
       "scores": {
-        "ambiente": 1,
+        "ambiente": 3,
         "diritti_lavoro": 0,
-        "trasparenza": 5,
-        "governance": 4,
+        "trasparenza": 6,
+        "governance": 3,
         "comunita": 0,
         "armamenti": 5
       },
-      "overall": 2.5,
-      "note": "Controversie: human_rights, environmental_disaster, labor_violation.",
+      "overall": 2.8,
+      "note": "Controversie: human_rights, environmental_disaster, labor_violation. Controversie: human_rights, environmental_disaster. Ethical Consumer: da evitare. CDP Climate A List.",
       "fonti": [
-        "Amnesty International"
+        "Amnesty International",
+        "Ethical Consumer",
+        "CDP"
       ]
     },
     "coca-cola.com": {
       "name": "Coca-Cola",
       "scores": {
         "ambiente": 0,
-        "diritti_lavoro": 5,
+        "diritti_lavoro": 1,
         "trasparenza": 3,
-        "governance": 5,
-        "comunita": 3,
+        "governance": 4,
+        "comunita": 0,
         "armamenti": 5
       },
-      "overall": 3.5,
-      "note": "Controversie: environmental_disaster, greenwashing.",
+      "overall": 2.2,
+      "note": "Controversie: environmental_disaster, greenwashing. Controversie: environmental_disaster, human_rights. Ethical Consumer: da evitare.",
       "fonti": [
-        "Break Free From Plastic"
+        "Break Free From Plastic",
+        "Ethical Consumer"
       ]
     },
     "glencore.com": {
@@ -713,6 +728,1319 @@
       "note": "Membro dell'alleanza globale per la finanza etica.",
       "fonti": [
         "Global Alliance for Banking on Values"
+      ]
+    },
+    "pangaia.com": {
+      "name": "Pangaia",
+      "scores": {
+        "ambiente": 8.5,
+        "diritti_lavoro": 8.5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 6.8,
+        "armamenti": 5
+      },
+      "overall": 6.6,
+      "note": "Good On You: Great.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "veja-store.com": {
+      "name": "Veja",
+      "scores": {
+        "ambiente": 8.5,
+        "diritti_lavoro": 8.5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 6.8,
+        "armamenti": 5
+      },
+      "overall": 6.6,
+      "note": "Good On You: Great.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "people-tree.co.uk": {
+      "name": "People Tree",
+      "scores": {
+        "ambiente": 8.5,
+        "diritti_lavoro": 8.5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 6.8,
+        "armamenti": 5
+      },
+      "overall": 6.6,
+      "note": "Good On You: Great.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "armedangels.com": {
+      "name": "Armed Angels",
+      "scores": {
+        "ambiente": 8.5,
+        "diritti_lavoro": 8.5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 6.8,
+        "armamenti": 5
+      },
+      "overall": 6.6,
+      "note": "Good On You: Great.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "kotn.com": {
+      "name": "Kotn",
+      "scores": {
+        "ambiente": 8.5,
+        "diritti_lavoro": 8.5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 6.8,
+        "armamenti": 5
+      },
+      "overall": 6.6,
+      "note": "Good On You: Great.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "patagonia.com": {
+      "name": "Patagonia",
+      "scores": {
+        "ambiente": 6.8,
+        "diritti_lavoro": 6.8,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5.9,
+        "armamenti": 5
+      },
+      "overall": 5.9,
+      "note": "Good On You: Good.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "eileenfisher.com": {
+      "name": "Eileen Fisher",
+      "scores": {
+        "ambiente": 6.8,
+        "diritti_lavoro": 6.8,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5.9,
+        "armamenti": 5
+      },
+      "overall": 5.9,
+      "note": "Good On You: Good.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "everlane.com": {
+      "name": "Everlane",
+      "scores": {
+        "ambiente": 6.8,
+        "diritti_lavoro": 6.8,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5.9,
+        "armamenti": 5
+      },
+      "overall": 5.9,
+      "note": "Good On You: Good.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "thereformation.com": {
+      "name": "Reformation",
+      "scores": {
+        "ambiente": 6.8,
+        "diritti_lavoro": 6.8,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5.9,
+        "armamenti": 5
+      },
+      "overall": 5.9,
+      "note": "Good On You: Good.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "stellamccartney.com": {
+      "name": "Stella McCartney",
+      "scores": {
+        "ambiente": 6.8,
+        "diritti_lavoro": 6.8,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5.9,
+        "armamenti": 5
+      },
+      "overall": 5.9,
+      "note": "Good On You: Good.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "levi.com": {
+      "name": "Levi's",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Good On You: It's a Start.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "adidas.com": {
+      "name": "Adidas",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Good On You: It's a Start.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "cos.com": {
+      "name": "COS",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Good On You: It's a Start.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "uniqlo.com": {
+      "name": "Uniqlo",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Good On You: It's a Start.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "benetton.com": {
+      "name": "Benetton",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Good On You: It's a Start.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "gap.com": {
+      "name": "Gap",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Good On You: It's a Start.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "nike.com": {
+      "name": "Nike",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 3.3,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 4.1,
+        "armamenti": 5
+      },
+      "overall": 4.1,
+      "note": "Good On You: Not Good Enough.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "puma.com": {
+      "name": "Puma",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 3.3,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 4.1,
+        "armamenti": 5
+      },
+      "overall": 4.1,
+      "note": "Good On You: Not Good Enough.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "mango.com": {
+      "name": "Mango",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 3.3,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 4.1,
+        "armamenti": 5
+      },
+      "overall": 4.1,
+      "note": "Good On You: Not Good Enough.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "tommy.com": {
+      "name": "Tommy Hilfiger",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 3.3,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 4.1,
+        "armamenti": 5
+      },
+      "overall": 4.1,
+      "note": "Good On You: Not Good Enough.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "calvinklein.com": {
+      "name": "Calvin Klein",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 3.3,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 4.1,
+        "armamenti": 5
+      },
+      "overall": 4.1,
+      "note": "Good On You: Not Good Enough.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "lacoste.com": {
+      "name": "Lacoste",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 3.3,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 4.1,
+        "armamenti": 5
+      },
+      "overall": 4.1,
+      "note": "Good On You: Not Good Enough.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "gucci.com": {
+      "name": "Gucci",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 3.3,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 4.1,
+        "armamenti": 5
+      },
+      "overall": 4.1,
+      "note": "Good On You: Not Good Enough.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "prada.com": {
+      "name": "Prada",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 3.3,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 4.1,
+        "armamenti": 5
+      },
+      "overall": 4.1,
+      "note": "Good On You: Not Good Enough.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "boohoo.com": {
+      "name": "Boohoo",
+      "scores": {
+        "ambiente": 1.5,
+        "diritti_lavoro": 1.5,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 3.3,
+        "armamenti": 5
+      },
+      "overall": 3.4,
+      "note": "Good On You: We Avoid.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "prettylittlething.com": {
+      "name": "PrettyLittleThing",
+      "scores": {
+        "ambiente": 1.5,
+        "diritti_lavoro": 1.5,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 3.3,
+        "armamenti": 5
+      },
+      "overall": 3.4,
+      "note": "Good On You: We Avoid.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "fashionnova.com": {
+      "name": "Fashion Nova",
+      "scores": {
+        "ambiente": 1.5,
+        "diritti_lavoro": 1.5,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 3.3,
+        "armamenti": 5
+      },
+      "overall": 3.4,
+      "note": "Good On You: We Avoid.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "temu.com": {
+      "name": "Temu",
+      "scores": {
+        "ambiente": 1.5,
+        "diritti_lavoro": 1.5,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 3.3,
+        "armamenti": 5
+      },
+      "overall": 3.4,
+      "note": "Good On You: We Avoid.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "romwe.com": {
+      "name": "Romwe",
+      "scores": {
+        "ambiente": 1.5,
+        "diritti_lavoro": 1.5,
+        "trasparenza": 4,
+        "governance": 5,
+        "comunita": 3.3,
+        "armamenti": 5
+      },
+      "overall": 3.4,
+      "note": "Good On You: We Avoid.",
+      "fonti": [
+        "Good On You"
+      ]
+    },
+    "ecosia.org": {
+      "name": "Ecosia",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "duckduckgo.com": {
+      "name": "DuckDuckGo",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "fairphone.com": {
+      "name": "Fairphone",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "tonysschocolonely.com": {
+      "name": "Tony's Chocolonely",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "divinechocolate.com": {
+      "name": "Divine Chocolate",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "cafedirect.co.uk": {
+      "name": "Cafedirect",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "lush.com": {
+      "name": "Lush",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "bodyshop.com": {
+      "name": "The Body Shop",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "whocaresecowash.com": {
+      "name": "Who Gives A Crap",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "ecover.com": {
+      "name": "Ecover",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "riverford.co.uk": {
+      "name": "Riverford",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "suma.coop": {
+      "name": "Suma",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "triodos.co.uk": {
+      "name": "Triodos Bank",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "cooperativebank.co.uk": {
+      "name": "The Co-operative Bank",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "ecology.co.uk": {
+      "name": "Ecology Building Society",
+      "scores": {
+        "ambiente": 7,
+        "diritti_lavoro": 7,
+        "trasparenza": 6.5,
+        "governance": 6,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 6.4,
+      "note": "Ethical Consumer: Best Buy.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "unilever.com": {
+      "name": "Unilever",
+      "scores": {
+        "ambiente": 3,
+        "diritti_lavoro": 3,
+        "trasparenza": 6,
+        "governance": 4,
+        "comunita": 1,
+        "armamenti": 5
+      },
+      "overall": 3.7,
+      "note": "Controversie: environmental_disaster. Ethical Consumer: da evitare. CDP Climate A List.",
+      "fonti": [
+        "Ethical Consumer",
+        "CDP"
+      ]
+    },
+    "pg.com": {
+      "name": "Procter & Gamble",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 1,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 0,
+        "armamenti": 5
+      },
+      "overall": 2.5,
+      "note": "Controversie: environmental_disaster, human_rights. Ethical Consumer: da evitare.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "pepsico.com": {
+      "name": "PepsiCo",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 3,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 1,
+        "armamenti": 5
+      },
+      "overall": 3,
+      "note": "Controversie: environmental_disaster. Ethical Consumer: da evitare.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "mcdonalds.com": {
+      "name": "McDonald's",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 0,
+        "trasparenza": 5,
+        "governance": 3,
+        "comunita": 1,
+        "armamenti": 5
+      },
+      "overall": 2.3,
+      "note": "Controversie: environmental_disaster, labor_violation. Ethical Consumer: da evitare.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "kfc.com": {
+      "name": "KFC",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 3,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 1,
+        "armamenti": 5
+      },
+      "overall": 3,
+      "note": "Controversie: environmental_disaster. Ethical Consumer: da evitare.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "starbucks.com": {
+      "name": "Starbucks",
+      "scores": {
+        "ambiente": 3,
+        "diritti_lavoro": 0,
+        "trasparenza": 2,
+        "governance": 1,
+        "comunita": 3,
+        "armamenti": 5
+      },
+      "overall": 2.3,
+      "note": "Controversie: tax_evasion, labor_violation. Ethical Consumer: da evitare.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "bat.com": {
+      "name": "British American Tobacco",
+      "scores": {
+        "ambiente": 3,
+        "diritti_lavoro": 2,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 0,
+        "armamenti": 5
+      },
+      "overall": 3.2,
+      "note": "Ethical Consumer: da evitare.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "pmi.com": {
+      "name": "Philip Morris",
+      "scores": {
+        "ambiente": 3,
+        "diritti_lavoro": 2,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 0,
+        "armamenti": 5
+      },
+      "overall": 3.2,
+      "note": "Ethical Consumer: da evitare.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "jti.com": {
+      "name": "Japan Tobacco International",
+      "scores": {
+        "ambiente": 3,
+        "diritti_lavoro": 2,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 0,
+        "armamenti": 5
+      },
+      "overall": 3.2,
+      "note": "Ethical Consumer: da evitare.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "innocentdrinks.co.uk": {
+      "name": "Innocent Drinks",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "benandjerry.com": {
+      "name": "Ben & Jerry's",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": [
+        "Ethical Consumer"
+      ]
+    },
+    "microsoft.com": {
+      "name": "Microsoft",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "loreal.com": {
+      "name": "L'Oreal",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "hp.com": {
+      "name": "HP",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "alphabet.com": {
+      "name": "Alphabet (Google)",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "sony.com": {
+      "name": "Sony",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "philips.com": {
+      "name": "Philips",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "danone.com": {
+      "name": "Danone",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "nvidia.com": {
+      "name": "NVIDIA",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "ferrari.com": {
+      "name": "Ferrari",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "enel.com": {
+      "name": "Enel",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "iberdrola.com": {
+      "name": "Iberdrola",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "volvocars.com": {
+      "name": "Volvo Cars",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "samsung.com": {
+      "name": "Samsung",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "lvmh.com": {
+      "name": "LVMH",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "kering.com": {
+      "name": "Kering",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "deutschetelekom.com": {
+      "name": "Deutsche Telekom",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "orange.com": {
+      "name": "Orange",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "vodafone.com": {
+      "name": "Vodafone",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "santander.com": {
+      "name": "Santander",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "allianz.com": {
+      "name": "Allianz",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "axa.com": {
+      "name": "AXA",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "novartis.com": {
+      "name": "Novartis",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "roche.com": {
+      "name": "Roche",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "astrazeneca.com": {
+      "name": "AstraZeneca",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "gsk.com": {
+      "name": "GlaxoSmithKline",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "tesla.com": {
+      "name": "Tesla",
+      "scores": {
+        "ambiente": 2,
+        "diritti_lavoro": 5,
+        "trasparenza": 3.5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.3,
+      "note": "CDP Climate: F (non disclosure).",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "berkshirehathaway.com": {
+      "name": "Berkshire Hathaway",
+      "scores": {
+        "ambiente": 2,
+        "diritti_lavoro": 5,
+        "trasparenza": 3.5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.3,
+      "note": "CDP Climate: F (non disclosure).",
+      "fonti": [
+        "CDP"
       ]
     }
   }

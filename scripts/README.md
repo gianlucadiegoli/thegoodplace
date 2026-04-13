@@ -31,6 +31,9 @@ Il risultato viene scritto in `data/brands.json` (sovrascrive il file esistente)
 | Don't Bank on the Bomb 2024 | Lista curata | `sources/curated.mjs` |
 | Carbon Majors | Lista curata | `sources/curated.mjs` |
 | Oxfam / Amnesty / ICIJ / Clean Clothes / EFF | Lista curata | `sources/curated.mjs` |
+| Good On You (moda) | Lista curata dai rating pubblici | `sources/goodonyou.mjs` |
+| Ethical Consumer | Lista curata da guide pubbliche | `sources/ethicalconsumer.mjs` |
+| CDP Climate A-List | Lista curata dall'A-List annuale | `sources/cdp.mjs` |
 
 ## Come aggiungere una nuova fonte
 

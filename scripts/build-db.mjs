@@ -8,6 +8,9 @@ import { dirname, join } from "node:path";
 import { fetchBCorps } from "./sources/bcorp.mjs";
 import { fetchWikidataCompanies } from "./sources/wikidata.mjs";
 import { fetchCurated } from "./sources/curated.mjs";
+import { fetchGoodOnYou } from "./sources/goodonyou.mjs";
+import { fetchEthicalConsumer } from "./sources/ethicalconsumer.mjs";
+import { fetchCDP } from "./sources/cdp.mjs";
 import {
   baselineScores,
   applyBCorp,
@@ -15,6 +18,9 @@ import {
   applyWeapons,
   applyControversy,
   applySector,
+  applyGoodOnYou,
+  applyEthicalConsumer,
+  applyCDP,
   overallScore,
 } from "./scoring.mjs";
 
@@ -58,6 +64,27 @@ async function main() {
     console.log(`  ${curated.length} voci curate\n`);
   }
 
+  if (!ONLY || ONLY === "goodonyou") {
+    console.log("Carico Good On You...");
+    const goy = await fetchGoodOnYou();
+    records.push(...goy);
+    console.log(`  ${goy.length} brand moda\n`);
+  }
+
+  if (!ONLY || ONLY === "ethicalconsumer") {
+    console.log("Carico Ethical Consumer...");
+    const ec = await fetchEthicalConsumer();
+    records.push(...ec);
+    console.log(`  ${ec.length} brand\n`);
+  }
+
+  if (!ONLY || ONLY === "cdp") {
+    console.log("Carico CDP A-List...");
+    const cdp = await fetchCDP();
+    records.push(...cdp);
+    console.log(`  ${cdp.length} aziende con grade climate\n`);
+  }
+
   console.log(`Totale record grezzi: ${records.length}\n`);
 
   // Raggruppa per dominio
@@ -91,6 +118,9 @@ async function main() {
         "Banking on Climate Chaos 2024 (bankingonclimatechaos.org)",
         "Don't Bank on the Bomb 2024 (dontbankonthebomb.com)",
         "Carbon Majors (influencemap.org)",
+        "Good On You (goodonyou.eco)",
+        "Ethical Consumer (ethicalconsumer.org)",
+        "CDP - Carbon Disclosure Project (cdp.net)",
       ],
       criteria: {
         ambiente: "Impatto ambientale: emissioni CO2, finanza fossile, economia circolare",
@@ -154,6 +184,28 @@ function scoreEntries(entries) {
       notes.push(`Controversie: ${e.controversies.join(", ")}.`);
     }
 
+    if (e.goodonyou_rating) {
+      applyGoodOnYou(scores, e.goodonyou_rating);
+      fontiSet.add("Good On You");
+      const labels = { 1: "We Avoid", 2: "Not Good Enough", 3: "It's a Start", 4: "Good", 5: "Great" };
+      notes.push(`Good On You: ${labels[e.goodonyou_rating]}.`);
+    }
+
+    if (e.ec_rating) {
+      applyEthicalConsumer(scores, e.ec_rating);
+      fontiSet.add("Ethical Consumer");
+      if (e.ec_rating === "best") notes.push("Ethical Consumer: Best Buy.");
+      if (e.ec_rating === "worst") notes.push("Ethical Consumer: da evitare.");
+    }
+
+    if (e.cdp_climate) {
+      applyCDP(scores, e.cdp_climate);
+      fontiSet.add("CDP");
+      if (e.cdp_climate === "A") notes.push("CDP Climate A List.");
+      else if (e.cdp_climate === "F") notes.push("CDP Climate: F (non disclosure).");
+      else notes.push(`CDP Climate grade: ${e.cdp_climate}.`);
+    }
+
     if (e.positive === "ethical_bank") {
       scores.ambiente = 9;
       scores.diritti_lavoro = 9;
@@ -193,6 +245,9 @@ function sourceDisplayName(key) {
     bcorp: "B Corp Directory",
     wikidata: "Wikidata",
     gabv: "Global Alliance for Banking on Values",
+    ethical_consumer: "Ethical Consumer",
+    goodonyou: "Good On You",
+    cdp: "CDP",
   };
   return map[key] || key;
 }

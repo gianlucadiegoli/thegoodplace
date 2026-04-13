@@ -107,6 +107,55 @@ export function applySector(scores, sector) {
   return scores;
 }
 
+/**
+ * Good On You rating (1-5) per brand di moda.
+ * 1=We Avoid, 2=Not Good Enough, 3=It's a Start, 4=Good, 5=Great
+ */
+export function applyGoodOnYou(scores, rating) {
+  const delta = (rating - 3) * 1.75;
+  scores.ambiente = clamp(scores.ambiente + delta);
+  scores.diritti_lavoro = clamp(scores.diritti_lavoro + delta);
+  scores.comunita = clamp(scores.comunita + delta * 0.5);
+  if (rating <= 2) scores.trasparenza = clamp(scores.trasparenza - 1);
+  if (rating >= 4) scores.trasparenza = clamp(scores.trasparenza + 1);
+  return scores;
+}
+
+/**
+ * Ethical Consumer rating: "best" (best buy), "middle", "worst" (avoid).
+ */
+export function applyEthicalConsumer(scores, rating) {
+  if (rating === "best") {
+    scores.ambiente = clamp(scores.ambiente + 2);
+    scores.diritti_lavoro = clamp(scores.diritti_lavoro + 2);
+    scores.comunita = clamp(scores.comunita + 2);
+    scores.trasparenza = clamp(scores.trasparenza + 1.5);
+    scores.governance = clamp(scores.governance + 1);
+  } else if (rating === "worst") {
+    scores.ambiente = clamp(scores.ambiente - 2);
+    scores.diritti_lavoro = clamp(scores.diritti_lavoro - 2);
+    scores.comunita = clamp(scores.comunita - 2);
+    scores.governance = clamp(scores.governance - 1);
+  }
+  return scores;
+}
+
+/**
+ * CDP Climate grade (A, A-, B, B-, C, C-, D, D-, F).
+ * Impatta ambiente e trasparenza (disclosure).
+ */
+export function applyCDP(scores, grade) {
+  const deltas = {
+    A: 3, "A-": 2.5, B: 1.5, "B-": 1, C: 0, "C-": -0.5,
+    D: -1.5, "D-": -2, F: -3,
+  };
+  const d = deltas[grade] ?? 0;
+  scores.ambiente = clamp(scores.ambiente + d);
+  if (grade && grade !== "F") scores.trasparenza = clamp(scores.trasparenza + 1);
+  if (grade === "F") scores.trasparenza = clamp(scores.trasparenza - 1.5);
+  return scores;
+}
+
 export function clamp(n, min = 0, max = 10) {
   return Math.max(min, Math.min(max, Math.round(n * 10) / 10));
 }
