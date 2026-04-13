@@ -1,172 +1,687 @@
 {
   "meta": {
-    "version": "1.0.0",
-    "lastUpdated": "2026-04-02",
+    "version": "2.0.0",
+    "lastUpdated": "2026-04-13",
+    "totalBrands": 43,
+    "sources": [
+      "B Corp Directory (bcorporation.net)",
+      "Wikidata (wikidata.org)",
+      "Banking on Climate Chaos 2024 (bankingonclimatechaos.org)",
+      "Don't Bank on the Bomb 2024 (dontbankonthebomb.com)",
+      "Carbon Majors (influencemap.org)"
+    ],
     "criteria": {
-      "ambiente": "Impatto ambientale: emissioni CO2, energie rinnovabili, economia circolare",
-      "diritti_lavoro": "Diritti dei lavoratori: salari equi, sicurezza, no sfruttamento",
-      "trasparenza": "Trasparenza fiscale: pagamento tasse, no paradisi fiscali",
+      "ambiente": "Impatto ambientale: emissioni CO2, finanza fossile, economia circolare",
+      "diritti_lavoro": "Diritti dei lavoratori: salari equi, sicurezza, supply chain",
+      "trasparenza": "Trasparenza fiscale: pagamento tasse, reporting pubblico",
       "governance": "Governance etica: diversita, anticorruzione, lobby responsabile",
-      "comunita": "Impatto sulla comunita: investimenti sociali, inclusione, accessibilita",
+      "comunita": "Impatto sulla comunita: investimenti sociali, inclusione",
       "armamenti": "Non coinvolgimento in armamenti e settori controversi"
     }
   },
   "brands": {
-    "patagonia.com": {
-      "name": "Patagonia",
+    "jpmorganchase.com": {
+      "name": "JPMorgan Chase",
       "scores": {
-        "ambiente": 9,
-        "diritti_lavoro": 8,
-        "trasparenza": 9,
-        "governance": 9,
-        "comunita": 9,
-        "armamenti": 10
+        "ambiente": 1.8,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 3.1,
+        "comunita": 5,
+        "armamenti": 0
       },
-      "note": "B-Corp certificata. Leader nella sostenibilita ambientale. Dona 1% del fatturato a cause ambientali.",
-      "fonti": ["bcorporation.net", "patagonia.com/our-footprint"]
+      "overall": 3.3,
+      "note": "Finanza fossile: 434 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Banking on Climate Chaos 2024",
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "citi.com": {
+      "name": "Citigroup",
+      "scores": {
+        "ambiente": 2,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 3.1,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 3.4,
+      "note": "Finanza fossile: 333 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Banking on Climate Chaos 2024",
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "wellsfargo.com": {
+      "name": "Wells Fargo",
+      "scores": {
+        "ambiente": 2,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 3.1,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 3.4,
+      "note": "Finanza fossile: 317 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Banking on Climate Chaos 2024",
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "bankofamerica.com": {
+      "name": "Bank of America",
+      "scores": {
+        "ambiente": 2.1,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 3.1,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 3.4,
+      "note": "Finanza fossile: 280 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Banking on Climate Chaos 2024",
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "rbc.com": {
+      "name": "Royal Bank of Canada",
+      "scores": {
+        "ambiente": 2.1,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4.1,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.4,
+      "note": "Finanza fossile: 254 mld USD (2016-2023).",
+      "fonti": [
+        "Banking on Climate Chaos 2024"
+      ]
+    },
+    "mufg.jp": {
+      "name": "MUFG",
+      "scores": {
+        "ambiente": 2.2,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4.1,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.4,
+      "note": "Finanza fossile: 233 mld USD (2016-2023).",
+      "fonti": [
+        "Banking on Climate Chaos 2024"
+      ]
+    },
+    "barclays.com": {
+      "name": "Barclays",
+      "scores": {
+        "ambiente": 2.2,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4.2,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.4,
+      "note": "Finanza fossile: 217 mld USD (2016-2023).",
+      "fonti": [
+        "Banking on Climate Chaos 2024"
+      ]
+    },
+    "hsbc.com": {
+      "name": "HSBC",
+      "scores": {
+        "ambiente": 2.3,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4.2,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.4,
+      "note": "Finanza fossile: 183 mld USD (2016-2023).",
+      "fonti": [
+        "Banking on Climate Chaos 2024"
+      ]
+    },
+    "bnpparibas.com": {
+      "name": "BNP Paribas",
+      "scores": {
+        "ambiente": 2.4,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 3.2,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 3.4,
+      "note": "Finanza fossile: 155 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Banking on Climate Chaos 2024",
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "unicreditgroup.eu": {
+      "name": "UniCredit",
+      "scores": {
+        "ambiente": 3.1,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 3.4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 3.6,
+      "note": "Finanza fossile: 38 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Banking on Climate Chaos 2024",
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "intesasanpaolo.com": {
+      "name": "Intesa Sanpaolo",
+      "scores": {
+        "ambiente": 3.3,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4.5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.6,
+      "note": "Finanza fossile: 27 mld USD (2016-2023).",
+      "fonti": [
+        "Banking on Climate Chaos 2024"
+      ]
+    },
+    "saudiaramco.com": {
+      "name": "Saudi Aramco",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 2,
+        "armamenti": 5
+      },
+      "overall": 3.7,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster.",
+      "fonti": [
+        "Carbon Majors"
+      ]
+    },
+    "shell.com": {
+      "name": "Shell",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 5,
+        "trasparenza": 3,
+        "governance": 5,
+        "comunita": 2,
+        "armamenti": 5
+      },
+      "overall": 3.3,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster, greenwashing.",
+      "fonti": [
+        "Carbon Majors"
+      ]
+    },
+    "exxonmobil.com": {
+      "name": "ExxonMobil",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 5,
+        "trasparenza": 3,
+        "governance": 5,
+        "comunita": 2,
+        "armamenti": 5
+      },
+      "overall": 3.3,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster, greenwashing.",
+      "fonti": [
+        "Carbon Majors"
+      ]
+    },
+    "bp.com": {
+      "name": "BP",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 5,
+        "trasparenza": 3,
+        "governance": 5,
+        "comunita": 2,
+        "armamenti": 5
+      },
+      "overall": 3.3,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster, greenwashing.",
+      "fonti": [
+        "Carbon Majors"
+      ]
+    },
+    "totalenergies.com": {
+      "name": "TotalEnergies",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 2,
+        "armamenti": 5
+      },
+      "overall": 3.7,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster.",
+      "fonti": [
+        "Carbon Majors"
+      ]
+    },
+    "chevron.com": {
+      "name": "Chevron",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 2,
+        "armamenti": 5
+      },
+      "overall": 3.7,
+      "note": "Settore combustibili fossili. Controversie: environmental_disaster.",
+      "fonti": [
+        "Carbon Majors"
+      ]
+    },
+    "eni.com": {
+      "name": "ENI",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 5,
+        "trasparenza": 1,
+        "governance": 0,
+        "comunita": 2,
+        "armamenti": 5
+      },
+      "overall": 2.2,
+      "note": "Settore combustibili fossili. Controversie: corruption, environmental_disaster. Controversie: corruption.",
+      "fonti": [
+        "Carbon Majors",
+        "Global Witness"
+      ]
+    },
+    "lockheedmartin.com": {
+      "name": "Lockheed Martin",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "boeing.com": {
+      "name": "Boeing",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "northropgrumman.com": {
+      "name": "Northrop Grumman",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "rtx.com": {
+      "name": "RTX (Raytheon)",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "generaldynamics.com": {
+      "name": "General Dynamics",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "leonardo.com": {
+      "name": "Leonardo",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "airbus.com": {
+      "name": "Airbus",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "thalesgroup.com": {
+      "name": "Thales",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "bae-systems.com": {
+      "name": "BAE Systems",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "morganstanley.com": {
+      "name": "Morgan Stanley",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "gs.com": {
+      "name": "Goldman Sachs",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "deutsche-bank.com": {
+      "name": "Deutsche Bank",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Finanziatore di armamenti nucleari.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
     },
     "amazon.com": {
       "name": "Amazon",
       "scores": {
         "ambiente": 5,
-        "diritti_lavoro": 3,
-        "trasparenza": 4,
-        "governance": 4,
+        "diritti_lavoro": 2,
+        "trasparenza": 2,
+        "governance": 2,
         "comunita": 5,
-        "armamenti": 6
+        "armamenti": 5
       },
-      "note": "Critiche su condizioni di lavoro nei magazzini. Climate Pledge per carbon neutral entro 2040. Pratiche fiscali aggressive.",
-      "fonti": ["oxfam.org", "theguardian.com"]
+      "overall": 3.5,
+      "note": "Controversie: labor_violation, tax_evasion.",
+      "fonti": [
+        "Oxfam"
+      ]
     },
     "apple.com": {
       "name": "Apple",
       "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 6,
-        "comunita": 6,
-        "armamenti": 10
+        "ambiente": 5,
+        "diritti_lavoro": 2,
+        "trasparenza": 2,
+        "governance": 2,
+        "comunita": 5,
+        "armamenti": 5
       },
-      "note": "Carbon neutral per le operations. Critiche su supply chain (Foxconn). Ottimizzazione fiscale aggressiva.",
-      "fonti": ["apple.com/environment", "amnesty.org"]
-    },
-    "nike.com": {
-      "name": "Nike",
-      "scores": {
-        "ambiente": 6,
-        "diritti_lavoro": 4,
-        "trasparenza": 5,
-        "governance": 6,
-        "comunita": 6,
-        "armamenti": 10
-      },
-      "note": "Miglioramenti nella sostenibilita con Move to Zero. Storico di problemi nella supply chain.",
-      "fonti": ["fashionrevolution.org", "nike.com/sustainability"]
-    },
-    "google.com": {
-      "name": "Google (Alphabet)",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 7,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 6,
-        "armamenti": 7
-      },
-      "note": "Carbon neutral dal 2007. Critiche su privacy, antitrust e collaborazioni militari (Project Maven).",
-      "fonti": ["sustainability.google", "eff.org"]
+      "overall": 3.5,
+      "note": "Controversie: tax_evasion, labor_violation.",
+      "fonti": [
+        "ICIJ"
+      ]
     },
     "ikea.com": {
       "name": "IKEA",
       "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 6,
-        "trasparenza": 5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 10
-      },
-      "note": "Investimenti importanti in rinnovabili. Struttura societaria complessa per ottimizzazione fiscale.",
-      "fonti": ["ikea.com/sustainability", "taxjustice.net"]
-    },
-    "nestle.com": {
-      "name": "Nestle",
-      "scores": {
-        "ambiente": 4,
-        "diritti_lavoro": 4,
-        "trasparenza": 4,
-        "governance": 4,
-        "comunita": 3,
-        "armamenti": 10
-      },
-      "note": "Controversie su acqua, deforestazione, lavoro minorile nel cacao. Impegni di miglioramento recenti.",
-      "fonti": ["corporateaccountability.org", "rainforest-action.org"]
-    },
-    "microsoft.com": {
-      "name": "Microsoft",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 7,
-        "trasparenza": 6,
-        "governance": 7,
-        "comunita": 7,
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 2,
+        "governance": 3,
+        "comunita": 5,
         "armamenti": 5
       },
-      "note": "Obiettivo carbon negative entro 2030. Contratti militari significativi (JEDI/Azure). Buone politiche HR.",
-      "fonti": ["microsoft.com/sustainability", "techcrunch.com"]
+      "overall": 4.2,
+      "note": "Controversie: tax_evasion.",
+      "fonti": [
+        "ICIJ"
+      ]
     },
     "zara.com": {
       "name": "Zara (Inditex)",
       "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 4,
+        "ambiente": 3,
+        "diritti_lavoro": 0,
         "trasparenza": 5,
-        "governance": 5,
+        "governance": 4,
         "comunita": 5,
-        "armamenti": 10
-      },
-      "note": "Fast fashion con impatto ambientale significativo. Programma Join Life per sostenibilita. Critiche sulla supply chain.",
-      "fonti": ["fashionrevolution.org", "cleanclothes.org"]
-    },
-    "tesla.com": {
-      "name": "Tesla",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 4,
-        "trasparenza": 5,
-        "governance": 3,
-        "comunita": 5,
-        "armamenti": 9
-      },
-      "note": "Leader nella transizione energetica. Critiche su condizioni di lavoro e governance concentrata.",
-      "fonti": ["tesla.com/impact", "reuters.com"]
-    },
-    "unicreditgroup.eu": {
-      "name": "UniCredit",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 6,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 4
-      },
-      "note": "Finanziamento a settori fossili. Coinvolgimento nel finanziamento di armamenti. Impegni ESG in corso.",
-      "fonti": ["banktrack.org", "dontbankonthebomb.com"]
-    },
-    "intesasanpaolo.com": {
-      "name": "Intesa Sanpaolo",
-      "scores": {
-        "ambiente": 6,
-        "diritti_lavoro": 6,
-        "trasparenza": 6,
-        "governance": 6,
-        "comunita": 7,
         "armamenti": 5
       },
-      "note": "Tra le migliori banche italiane per ESG. Investimenti in inclusione sociale. Ancora esposizione a fossili.",
-      "fonti": ["group.intesasanpaolo.com/sustainability", "banktrack.org"]
+      "overall": 3.7,
+      "note": "Controversie: labor_violation.",
+      "fonti": [
+        "Clean Clothes Campaign"
+      ]
+    },
+    "hm.com": {
+      "name": "H&M",
+      "scores": {
+        "ambiente": 2,
+        "diritti_lavoro": 0,
+        "trasparenza": 3,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 3.2,
+      "note": "Controversie: labor_violation, greenwashing.",
+      "fonti": [
+        "Clean Clothes Campaign"
+      ]
+    },
+    "shein.com": {
+      "name": "Shein",
+      "scores": {
+        "ambiente": 3,
+        "diritti_lavoro": 0,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 2,
+        "armamenti": 5
+      },
+      "overall": 3.2,
+      "note": "Controversie: labor_violation, human_rights.",
+      "fonti": [
+        "Clean Clothes Campaign"
+      ]
+    },
+    "facebook.com": {
+      "name": "Meta (Facebook)",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 3,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 0,
+        "armamenti": 5
+      },
+      "overall": 3.7,
+      "note": "Controversie: data_privacy, human_rights.",
+      "fonti": [
+        "Electronic Frontier Foundation"
+      ]
+    },
+    "meta.com": {
+      "name": "Meta",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 3,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 0,
+        "armamenti": 5
+      },
+      "overall": 3.7,
+      "note": "Controversie: data_privacy, human_rights.",
+      "fonti": [
+        "Electronic Frontier Foundation"
+      ]
+    },
+    "nestle.com": {
+      "name": "Nestle",
+      "scores": {
+        "ambiente": 1,
+        "diritti_lavoro": 0,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 0,
+        "armamenti": 5
+      },
+      "overall": 2.5,
+      "note": "Controversie: human_rights, environmental_disaster, labor_violation.",
+      "fonti": [
+        "Amnesty International"
+      ]
+    },
+    "coca-cola.com": {
+      "name": "Coca-Cola",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 5,
+        "trasparenza": 3,
+        "governance": 5,
+        "comunita": 3,
+        "armamenti": 5
+      },
+      "overall": 3.5,
+      "note": "Controversie: environmental_disaster, greenwashing.",
+      "fonti": [
+        "Break Free From Plastic"
+      ]
+    },
+    "glencore.com": {
+      "name": "Glencore",
+      "scores": {
+        "ambiente": 0,
+        "diritti_lavoro": 4,
+        "trasparenza": 3,
+        "governance": 1,
+        "comunita": 1,
+        "armamenti": 5
+      },
+      "overall": 2.3,
+      "note": "Controversie: corruption, environmental_disaster.",
+      "fonti": [
+        "ReCommon"
+      ]
     },
     "bancaetica.it": {
       "name": "Banca Etica",
@@ -178,99 +693,27 @@
         "comunita": 10,
         "armamenti": 10
       },
-      "note": "Unica banca italiana interamente dedicata alla finanza etica. Trasparenza totale sugli impieghi.",
-      "fonti": ["bancaetica.it", "gabv.org"]
+      "overall": 9.5,
+      "note": "Membro dell'alleanza globale per la finanza etica.",
+      "fonti": [
+        "Global Alliance for Banking on Values"
+      ]
     },
-    "coca-cola.com": {
-      "name": "Coca-Cola",
-      "scores": {
-        "ambiente": 4,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 10
-      },
-      "note": "Maggiore produttore di rifiuti plastici al mondo. Critiche sull'uso dell'acqua. Impegni su riciclo.",
-      "fonti": ["breakfreefromplastic.org", "corporateaccountability.org"]
-    },
-    "shell.com": {
-      "name": "Shell",
-      "scores": {
-        "ambiente": 2,
-        "diritti_lavoro": 5,
-        "trasparenza": 4,
-        "governance": 4,
-        "comunita": 3,
-        "armamenti": 8
-      },
-      "note": "Tra le aziende piu inquinanti al mondo. Condannata per insufficiente azione climatica. Greenwashing.",
-      "fonti": ["clientearth.org", "carbonmajors.org"]
-    },
-    "eni.com": {
-      "name": "ENI",
-      "scores": {
-        "ambiente": 3,
-        "diritti_lavoro": 6,
-        "trasparenza": 4,
-        "governance": 4,
-        "comunita": 4,
-        "armamenti": 8
-      },
-      "note": "Importante impatto climatico. Coinvolta in casi di corruzione internazionale. Transizione energetica lenta.",
-      "fonti": ["recommon.org", "globalwitness.org"]
-    },
-    "fairphone.com": {
-      "name": "Fairphone",
+    "triodos.com": {
+      "name": "Triodos Bank",
       "scores": {
         "ambiente": 9,
         "diritti_lavoro": 9,
-        "trasparenza": 9,
+        "trasparenza": 10,
         "governance": 9,
-        "comunita": 8,
+        "comunita": 10,
         "armamenti": 10
       },
-      "note": "Smartphone modulare ed etico. Materiali equi e riciclati. Trasparenza sulla supply chain.",
-      "fonti": ["fairphone.com/impact", "bcorporation.net"]
-    },
-    "h&m.com": {
-      "name": "H&M",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 4,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 10
-      },
-      "note": "Fast fashion. Iniziative di riciclo ma accusata di greenwashing. Living wage non garantito nella supply chain.",
-      "fonti": ["cleanclothes.org", "fashionchecker.org"]
-    },
-    "facebook.com": {
-      "name": "Meta (Facebook)",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 6,
-        "trasparenza": 3,
-        "governance": 3,
-        "comunita": 3,
-        "armamenti": 9
-      },
-      "note": "Energie rinnovabili per i data center. Gravi problemi di privacy, disinformazione e impatto sulla salute mentale.",
-      "fonti": ["eff.org", "whistlebloweraid.org"]
-    },
-    "meta.com": {
-      "name": "Meta",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 6,
-        "trasparenza": 3,
-        "governance": 3,
-        "comunita": 3,
-        "armamenti": 9
-      },
-      "note": "Energie rinnovabili per i data center. Gravi problemi di privacy, disinformazione e impatto sulla salute mentale.",
-      "fonti": ["eff.org", "whistlebloweraid.org"]
+      "overall": 9.5,
+      "note": "Membro dell'alleanza globale per la finanza etica.",
+      "fonti": [
+        "Global Alliance for Banking on Values"
+      ]
     }
   }
 }

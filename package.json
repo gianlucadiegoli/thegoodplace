@@ -1,0 +1,16 @@
+{
+  "name": "thegoodplace-builder",
+  "version": "1.0.0",
+  "description": "Pipeline di build per il database ESG dell'extension The Good Place",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "build-db": "node scripts/build-db.mjs",
+    "build-db:bcorp": "node scripts/build-db.mjs --only=bcorp",
+    "build-db:wikidata": "node scripts/build-db.mjs --only=wikidata",
+    "build-db:curated": "node scripts/build-db.mjs --only=curated"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
