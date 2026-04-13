@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0.0",
     "lastUpdated": "2026-04-13",
-    "totalBrands": 80,
+    "totalBrands": 76,
     "sources": [
       "B Corp Directory (bcorporation.net)",
       "Wikidata (wikidata.org)",
@@ -26,18 +26,16 @@
     "barilla.com": {
       "name": "Barilla",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List. CDP A-list storica. Impegni su filiera grano sostenibile, famiglia proprietaria, alcune critiche passate su palma (rientro nel 2015).",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "ferrero.com": {
       "name": "Ferrero",
@@ -50,7 +48,7 @@
         "armamenti": 5
       },
       "overall": 4,
-      "note": "Controversie: environmental_disaster. Uso intensivo di olio di palma e nocciole. Critiche su lavoro minorile nella filiera cacao; aderente a Rainforest Alliance dal 2020.",
+      "note": "Controversie: environmental_disaster. Critiche documentate su uso di olio di palma e filiera cacao (Mighty Earth, Make Chocolate Fair). Impegni dichiarati su Rainforest Alliance.",
       "fonti": [
         "italian"
       ]
@@ -58,18 +56,16 @@
     "lavazza.com": {
       "name": "Lavazza",
       "scores": {
-        "ambiente": 6.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.4,
-      "note": "CDP Climate grade: B. Lavazza Foundation su progetti sociali. Certificazione Rainforest Alliance su parte del caffe'.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "illy.com": {
       "name": "Illycaffe'",
@@ -82,7 +78,7 @@
         "armamenti": 5
       },
       "overall": 6.9,
-      "note": "B Corp certificata italiana. Certificata B Corp dal 2021. Modello di caffe' etico con filiera trasparente.",
+      "note": "B Corp certificata italiana. Certificata B Corp dal 2021.",
       "fonti": [
         "B Corp Directory"
       ]
@@ -98,7 +94,7 @@
         "armamenti": 5
       },
       "overall": 5,
-      "note": "Cooperativa di produttori. Report sostenibilita' annuale, ancora criticita' su benessere animale.",
+      "note": "Dati aggregati da fonti pubbliche.",
       "fonti": []
     },
     "parmalat.com": {
@@ -112,7 +108,7 @@
         "armamenti": 5
       },
       "overall": 4,
-      "note": "Controversie: corruption. Storica bancarotta Parmalat (2003). Ora controllata dal gruppo francese Lactalis, critiche su trasparenza.",
+      "note": "Controversie: corruption. Bancarotta fraudolenta Parmalat 2003, condanne in giudicato.",
       "fonti": [
         "italian"
       ]
@@ -134,34 +130,16 @@
     "campari.com": {
       "name": "Campari Group",
       "scores": {
-        "ambiente": 6.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.4,
-      "note": "CDP Climate grade: B.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "san-pellegrino.com": {
-      "name": "San Pellegrino (Nestle)",
-      "scores": {
-        "ambiente": 1,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 3,
-        "armamenti": 5
-      },
-      "overall": 4,
-      "note": "Controversie: environmental_disaster. Di proprieta' Nestle. Controversie sull'uso di acqua e sulle concessioni.",
-      "fonti": [
-        "italian"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "cirio.it": {
       "name": "Cirio",
@@ -202,7 +180,7 @@
         "armamenti": 5
       },
       "overall": 5,
-      "note": "Retailer privato. Partecipa a progetti contro spreco alimentare.",
+      "note": "Dati aggregati da fonti pubbliche.",
       "fonti": []
     },
     "e-coop.it": {
@@ -216,7 +194,7 @@
         "armamenti": 5
       },
       "overall": 5.8,
-      "note": "Modello cooperativo. Modello cooperativo. Prodotti Coop con standard interni su filiera e ambiente. Tra i leader GDO per sostenibilita'.",
+      "note": "Modello cooperativo. Modello cooperativo di consumo.",
       "fonti": []
     },
     "conad.it": {
@@ -230,7 +208,7 @@
         "armamenti": 5
       },
       "overall": 5.8,
-      "note": "Modello cooperativo.",
+      "note": "Modello cooperativo. Consorzio cooperativo di dettaglianti.",
       "fonti": []
     },
     "carrefour.it": {
@@ -246,22 +224,6 @@
       "overall": 5,
       "note": "Dati aggregati da fonti pubbliche.",
       "fonti": []
-    },
-    "lidl.it": {
-      "name": "Lidl Italia",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 2,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 4.3,
-      "note": "Controversie: labor_violation. Gruppo Schwarz. Alcune critiche su condizioni di lavoro nei magazzini europei.",
-      "fonti": [
-        "italian"
-      ]
     },
     "eurospin.it": {
       "name": "Eurospin",
@@ -308,18 +270,16 @@
     "bpm.it": {
       "name": "Banco BPM",
       "scores": {
-        "ambiente": 3.7,
+        "ambiente": 5,
         "diritti_lavoro": 5,
         "trasparenza": 5,
-        "governance": 4.6,
+        "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 4.7,
-      "note": "Finanza fossile: 12 mld USD (2016-2023).",
-      "fonti": [
-        "Banking on Climate Chaos 2024"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "bper.it": {
       "name": "BPER Banca",
@@ -346,7 +306,7 @@
         "armamenti": 5
       },
       "overall": 4,
-      "note": "Controversie: corruption. Salvataggio pubblico nel 2017. Storia di scandali finanziari (Mps-Antonveneta).",
+      "note": "Controversie: corruption. Scandali finanziari (Mps-Antonveneta, derivati). Salvataggio pubblico 2017.",
       "fonti": [
         "italian"
       ]
@@ -382,18 +342,16 @@
     "generali.com": {
       "name": "Assicurazioni Generali",
       "scores": {
-        "ambiente": 7.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.6,
-      "note": "CDP Climate grade: A-. CDP A- su climate. Impegno al disinvestimento progressivo dal carbone entro 2030.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "unipol.it": {
       "name": "Unipol",
@@ -412,18 +370,16 @@
     "posteitaliane.it": {
       "name": "Poste Italiane",
       "scores": {
-        "ambiente": 6.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.4,
-      "note": "CDP Climate grade: B.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "cdp.it": {
       "name": "Cassa Depositi e Prestiti",
@@ -442,66 +398,58 @@
     "enel.com": {
       "name": "Enel",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List. Gia' in CDP A-list. Leader nella transizione energetica con Enel Green Power.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "a2a.eu": {
       "name": "A2A",
       "scores": {
-        "ambiente": 7.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.6,
-      "note": "CDP Climate grade: A-.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "hera.it": {
       "name": "Hera",
       "scores": {
-        "ambiente": 7.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.6,
-      "note": "CDP Climate grade: A-.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "iren.it": {
       "name": "Iren",
       "scores": {
-        "ambiente": 6.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.4,
-      "note": "CDP Climate grade: B.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "snam.it": {
       "name": "Snam",
@@ -514,7 +462,7 @@
         "armamenti": 5
       },
       "overall": 4.3,
-      "note": "Settore combustibili fossili. Infrastrutture gas. Transizione annunciata verso idrogeno.",
+      "note": "Settore combustibili fossili. Principale operatore italiano di infrastrutture gas.",
       "fonti": [
         "Carbon Majors"
       ]
@@ -522,18 +470,16 @@
     "terna.it": {
       "name": "Terna",
       "scores": {
-        "ambiente": 7.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.6,
-      "note": "CDP Climate grade: A-.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "acea.it": {
       "name": "Acea",
@@ -560,7 +506,7 @@
         "armamenti": 5
       },
       "overall": 3.3,
-      "note": "Settore combustibili fossili. Controversie: corruption. Storici scandali su tangenti Algeria. Servizi petroliferi.",
+      "note": "Settore combustibili fossili. Controversie: corruption. Sentenze per corruzione internazionale (caso Algeria Sonatrach).",
       "fonti": [
         "Carbon Majors",
         "italian"
@@ -569,18 +515,16 @@
     "tim.it": {
       "name": "TIM (Telecom Italia)",
       "scores": {
-        "ambiente": 7.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.6,
-      "note": "CDP Climate grade: A-.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "vodafone.it": {
       "name": "Vodafone Italia",
@@ -677,7 +621,7 @@
         "armamenti": 5
       },
       "overall": 4,
-      "note": "Controversie: environmental_disaster. Crollo del Ponte Morandi (2018). Gestione passata criticata, cambio di controllo nel 2022.",
+      "note": "Controversie: environmental_disaster. Crollo del Ponte Morandi, Genova 2018 (43 vittime). Processi in corso/conclusi.",
       "fonti": [
         "italian"
       ]
@@ -710,24 +654,8 @@
       "note": "Dati aggregati da fonti pubbliche.",
       "fonti": []
     },
-    "armani.com": {
-      "name": "Giorgio Armani",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 2,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 4.3,
-      "note": "Controversie: labor_violation. Indagini 2024 su caporalato nella filiera di confezionamento.",
-      "fonti": [
-        "italian"
-      ]
-    },
-    "prada.com": {
-      "name": "Prada Group",
+    "moncler.com": {
+      "name": "Moncler",
       "scores": {
         "ambiente": 5,
         "diritti_lavoro": 5,
@@ -740,37 +668,19 @@
       "note": "Dati aggregati da fonti pubbliche.",
       "fonti": []
     },
-    "moncler.com": {
-      "name": "Moncler",
-      "scores": {
-        "ambiente": 7.5,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.6,
-      "note": "CDP Climate grade: A-.",
-      "fonti": [
-        "CDP"
-      ]
-    },
     "luxottica.com": {
       "name": "Luxottica (EssilorLuxottica)",
       "scores": {
-        "ambiente": 7.5,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.6,
-      "note": "CDP Climate grade: A-.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "geox.com": {
       "name": "Geox",
@@ -811,7 +721,7 @@
         "armamenti": 5
       },
       "overall": 5,
-      "note": "Rana Plaza (2013). Ha firmato l'Accord on Fire and Building Safety.",
+      "note": "Firmataria dell'Accord on Fire and Building Safety dopo Rana Plaza 2013.",
       "fonti": []
     },
     "calzedonia.com": {
@@ -859,50 +769,44 @@
     "ferrari.com": {
       "name": "Ferrari",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List. Gia' in CDP A-list.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "stellantis.com": {
       "name": "Stellantis",
       "scores": {
-        "ambiente": 6,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.3,
-      "note": "CDP Climate grade: B-. Produttore FCA-PSA. Transizione elettrica in corso.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "pirelli.com": {
       "name": "Pirelli",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "ducati.com": {
       "name": "Ducati",
@@ -957,7 +861,7 @@
         "armamenti": 0
       },
       "overall": 4,
-      "note": "Produttore di armamenti controversi. Gia' classificato produttore armamenti.",
+      "note": "Produttore di armamenti controversi. Gruppo italiano di difesa, aerospazio e sicurezza.",
       "fonti": [
         "Don't Bank on the Bomb 2024"
       ]
@@ -973,7 +877,7 @@
         "armamenti": 0
       },
       "overall": 4,
-      "note": "Produttore di armamenti controversi. Cantieristica navale civile e militare.",
+      "note": "Produttore di armamenti controversi. Cantieristica navale civile e militare. Contratti per marine militari.",
       "fonti": [
         "Don't Bank on the Bomb 2024"
       ]
@@ -989,7 +893,7 @@
         "armamenti": 0
       },
       "overall": 3.2,
-      "note": "Produttore di armamenti controversi. Controversie: human_rights. Produzione bombe esportate in Arabia Saudita/Yemen (inchieste giornalistiche).",
+      "note": "Produttore di armamenti controversi. Controversie: human_rights. Inchieste di Rete Disarmo, PAX, Domani su esportazioni bombe MK verso coalizione Arabia Saudita-Emirati (guerra in Yemen).",
       "fonti": [
         "Don't Bank on the Bomb 2024",
         "italian"
@@ -1062,7 +966,7 @@
         "armamenti": 5
       },
       "overall": 6.9,
-      "note": "B Corp certificata italiana. B Corp. Piattaforma per piantare alberi verificati.",
+      "note": "B Corp certificata italiana. Piattaforma di piantumazione alberi geo-tracciati.",
       "fonti": [
         "B Corp Directory"
       ]
@@ -1094,7 +998,7 @@
         "armamenti": 5
       },
       "overall": 6.9,
-      "note": "B Corp certificata italiana. Prima B Corp italiana. Consulenza su sostenibilita'.",
+      "note": "B Corp certificata italiana. Prima B Corp italiana (2013).",
       "fonti": [
         "B Corp Directory"
       ]
@@ -1158,7 +1062,7 @@
         "armamenti": 10
       },
       "overall": 7.5,
-      "note": "Dati aggregati da fonti pubbliche.",
+      "note": "Associazione indipendente di difesa dei consumatori.",
       "fonti": []
     },
     "slowfood.it": {
@@ -1172,7 +1076,7 @@
         "armamenti": 10
       },
       "overall": 7.5,
-      "note": "Dati aggregati da fonti pubbliche.",
+      "note": "Movimento internazionale fondato in Italia per il cibo buono, pulito, giusto.",
       "fonti": []
     },
     "legambiente.it": {
@@ -1214,7 +1118,7 @@
         "armamenti": 5
       },
       "overall": 7.3,
-      "note": "Commercio equo e solidale. Cooperative su terreni confiscati alle mafie.",
+      "note": "Commercio equo e solidale. Cooperative su terreni confiscati alle mafie (legge 109/96).",
       "fonti": []
     }
   }
