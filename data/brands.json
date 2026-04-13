@@ -2,7 +2,7 @@
   "meta": {
     "version": "2.0.0",
     "lastUpdated": "2026-04-13",
-    "totalBrands": 125,
+    "totalBrands": 80,
     "sources": [
       "B Corp Directory (bcorporation.net)",
       "Wikidata (wikidata.org)",
@@ -23,1564 +23,102 @@
     }
   },
   "brands": {
-    "jpmorganchase.com": {
-      "name": "JPMorgan Chase",
-      "scores": {
-        "ambiente": 1.8,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 3.1,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 3.3,
-      "note": "Finanza fossile: 434 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
-      "fonti": [
-        "Banking on Climate Chaos 2024",
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "citi.com": {
-      "name": "Citigroup",
-      "scores": {
-        "ambiente": 2,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 3.1,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 3.4,
-      "note": "Finanza fossile: 333 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
-      "fonti": [
-        "Banking on Climate Chaos 2024",
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "wellsfargo.com": {
-      "name": "Wells Fargo",
-      "scores": {
-        "ambiente": 2,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 3.1,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 3.4,
-      "note": "Finanza fossile: 317 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
-      "fonti": [
-        "Banking on Climate Chaos 2024",
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "bankofamerica.com": {
-      "name": "Bank of America",
-      "scores": {
-        "ambiente": 2.1,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 3.1,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 3.4,
-      "note": "Finanza fossile: 280 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
-      "fonti": [
-        "Banking on Climate Chaos 2024",
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "rbc.com": {
-      "name": "Royal Bank of Canada",
-      "scores": {
-        "ambiente": 2.1,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4.1,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 4.4,
-      "note": "Finanza fossile: 254 mld USD (2016-2023).",
-      "fonti": [
-        "Banking on Climate Chaos 2024"
-      ]
-    },
-    "mufg.jp": {
-      "name": "MUFG",
-      "scores": {
-        "ambiente": 2.2,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4.1,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 4.4,
-      "note": "Finanza fossile: 233 mld USD (2016-2023).",
-      "fonti": [
-        "Banking on Climate Chaos 2024"
-      ]
-    },
-    "barclays.com": {
-      "name": "Barclays",
-      "scores": {
-        "ambiente": 2.2,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4.2,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 4.4,
-      "note": "Finanza fossile: 217 mld USD (2016-2023).",
-      "fonti": [
-        "Banking on Climate Chaos 2024"
-      ]
-    },
-    "hsbc.com": {
-      "name": "HSBC",
-      "scores": {
-        "ambiente": 5.3,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 4.2,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.1,
-      "note": "Finanza fossile: 183 mld USD (2016-2023). CDP Climate A List.",
-      "fonti": [
-        "Banking on Climate Chaos 2024",
-        "CDP"
-      ]
-    },
-    "bnpparibas.com": {
-      "name": "BNP Paribas",
-      "scores": {
-        "ambiente": 5.4,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 3.2,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4.1,
-      "note": "Finanza fossile: 155 mld USD (2016-2023). Finanziatore di armamenti nucleari. CDP Climate A List.",
-      "fonti": [
-        "Banking on Climate Chaos 2024",
-        "Don't Bank on the Bomb 2024",
-        "CDP"
-      ]
-    },
-    "unicreditgroup.eu": {
-      "name": "UniCredit",
-      "scores": {
-        "ambiente": 3.1,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 3.4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 3.6,
-      "note": "Finanza fossile: 38 mld USD (2016-2023). Finanziatore di armamenti nucleari.",
-      "fonti": [
-        "Banking on Climate Chaos 2024",
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "intesasanpaolo.com": {
-      "name": "Intesa Sanpaolo",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4.5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 4.6,
-      "note": "Finanza fossile: 27 mld USD (2016-2023).",
-      "fonti": [
-        "Banking on Climate Chaos 2024"
-      ]
-    },
-    "saudiaramco.com": {
-      "name": "Saudi Aramco",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 5,
-        "trasparenza": 3.5,
-        "governance": 5,
-        "comunita": 2,
-        "armamenti": 5
-      },
-      "overall": 3.4,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster. CDP Climate: F (non disclosure).",
-      "fonti": [
-        "Carbon Majors",
-        "CDP"
-      ]
-    },
-    "shell.com": {
-      "name": "Shell",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 5,
-        "trasparenza": 3,
-        "governance": 5,
-        "comunita": 2,
-        "armamenti": 5
-      },
-      "overall": 3.3,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster, greenwashing.",
-      "fonti": [
-        "Carbon Majors"
-      ]
-    },
-    "exxonmobil.com": {
-      "name": "ExxonMobil",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 5,
-        "trasparenza": 1.5,
-        "governance": 5,
-        "comunita": 2,
-        "armamenti": 5
-      },
-      "overall": 3.1,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster, greenwashing. CDP Climate: F (non disclosure).",
-      "fonti": [
-        "Carbon Majors",
-        "CDP"
-      ]
-    },
-    "bp.com": {
-      "name": "BP",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 5,
-        "trasparenza": 3,
-        "governance": 5,
-        "comunita": 2,
-        "armamenti": 5
-      },
-      "overall": 3.3,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster, greenwashing.",
-      "fonti": [
-        "Carbon Majors"
-      ]
-    },
-    "totalenergies.com": {
-      "name": "TotalEnergies",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 2,
-        "armamenti": 5
-      },
-      "overall": 3.7,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster.",
-      "fonti": [
-        "Carbon Majors"
-      ]
-    },
-    "chevron.com": {
-      "name": "Chevron",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 5,
-        "trasparenza": 3.5,
-        "governance": 5,
-        "comunita": 2,
-        "armamenti": 5
-      },
-      "overall": 3.4,
-      "note": "Settore combustibili fossili. Controversie: environmental_disaster. CDP Climate: F (non disclosure).",
-      "fonti": [
-        "Carbon Majors",
-        "CDP"
-      ]
-    },
-    "eni.com": {
-      "name": "ENI",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 5,
-        "trasparenza": 1,
-        "governance": 0,
-        "comunita": 2,
-        "armamenti": 5
-      },
-      "overall": 2.2,
-      "note": "Settore combustibili fossili. Controversie: corruption, environmental_disaster. Controversie: corruption.",
-      "fonti": [
-        "Carbon Majors",
-        "Global Witness"
-      ]
-    },
-    "lockheedmartin.com": {
-      "name": "Lockheed Martin",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "boeing.com": {
-      "name": "Boeing",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "northropgrumman.com": {
-      "name": "Northrop Grumman",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "rtx.com": {
-      "name": "RTX (Raytheon)",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "generaldynamics.com": {
-      "name": "General Dynamics",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "leonardo.com": {
-      "name": "Leonardo",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "airbus.com": {
-      "name": "Airbus",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "thalesgroup.com": {
-      "name": "Thales",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "bae-systems.com": {
-      "name": "BAE Systems",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Produttore di armamenti controversi.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "morganstanley.com": {
-      "name": "Morgan Stanley",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Finanziatore di armamenti nucleari.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "gs.com": {
-      "name": "Goldman Sachs",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Finanziatore di armamenti nucleari.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "deutsche-bank.com": {
-      "name": "Deutsche Bank",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 5,
-        "armamenti": 0
-      },
-      "overall": 4,
-      "note": "Finanziatore di armamenti nucleari.",
-      "fonti": [
-        "Don't Bank on the Bomb 2024"
-      ]
-    },
-    "amazon.com": {
-      "name": "Amazon",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 2,
-        "trasparenza": 2,
-        "governance": 2,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 3.5,
-      "note": "Controversie: labor_violation, tax_evasion.",
-      "fonti": [
-        "Oxfam"
-      ]
-    },
-    "apple.com": {
-      "name": "Apple",
+    "barilla.com": {
+      "name": "Barilla",
       "scores": {
         "ambiente": 8,
-        "diritti_lavoro": 2,
-        "trasparenza": 3,
-        "governance": 2,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 4.2,
-      "note": "Controversie: tax_evasion, labor_violation. CDP Climate A List.",
+      "overall": 5.7,
+      "note": "CDP Climate A List. CDP A-list storica. Impegni su filiera grano sostenibile, famiglia proprietaria, alcune critiche passate su palma (rientro nel 2015).",
       "fonti": [
-        "ICIJ",
         "CDP"
       ]
     },
-    "ikea.com": {
-      "name": "IKEA",
+    "ferrero.com": {
+      "name": "Ferrero",
       "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 2,
-        "governance": 3,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 4.2,
-      "note": "Controversie: tax_evasion.",
-      "fonti": [
-        "ICIJ"
-      ]
-    },
-    "zara.com": {
-      "name": "Zara (Inditex)",
-      "scores": {
-        "ambiente": 1.3,
-        "diritti_lavoro": 0,
-        "trasparenza": 4,
-        "governance": 4,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 3.1,
-      "note": "Controversie: labor_violation. Good On You: Not Good Enough.",
-      "fonti": [
-        "Clean Clothes Campaign",
-        "Good On You"
-      ]
-    },
-    "hm.com": {
-      "name": "H&M",
-      "scores": {
-        "ambiente": 0.3,
-        "diritti_lavoro": 0,
-        "trasparenza": 2,
-        "governance": 4,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 2.6,
-      "note": "Controversie: labor_violation, greenwashing. Good On You: Not Good Enough.",
-      "fonti": [
-        "Clean Clothes Campaign",
-        "Good On You"
-      ]
-    },
-    "shein.com": {
-      "name": "Shein",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 0,
-        "trasparenza": 4,
-        "governance": 4,
-        "comunita": 0.3,
-        "armamenti": 5
-      },
-      "overall": 2.2,
-      "note": "Controversie: labor_violation, human_rights. Good On You: We Avoid.",
-      "fonti": [
-        "Clean Clothes Campaign",
-        "Good On You"
-      ]
-    },
-    "facebook.com": {
-      "name": "Meta (Facebook)",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 3,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 0,
-        "armamenti": 5
-      },
-      "overall": 3.7,
-      "note": "Controversie: data_privacy, human_rights.",
-      "fonti": [
-        "Electronic Frontier Foundation"
-      ]
-    },
-    "meta.com": {
-      "name": "Meta",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 3,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 0,
-        "armamenti": 5
-      },
-      "overall": 3.7,
-      "note": "Controversie: data_privacy, human_rights.",
-      "fonti": [
-        "Electronic Frontier Foundation"
-      ]
-    },
-    "nestle.com": {
-      "name": "Nestle",
-      "scores": {
-        "ambiente": 3,
-        "diritti_lavoro": 0,
-        "trasparenza": 6,
-        "governance": 3,
-        "comunita": 0,
-        "armamenti": 5
-      },
-      "overall": 2.8,
-      "note": "Controversie: human_rights, environmental_disaster, labor_violation. Controversie: human_rights, environmental_disaster. Ethical Consumer: da evitare. CDP Climate A List.",
-      "fonti": [
-        "Amnesty International",
-        "Ethical Consumer",
-        "CDP"
-      ]
-    },
-    "coca-cola.com": {
-      "name": "Coca-Cola",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 1,
-        "trasparenza": 3,
-        "governance": 4,
-        "comunita": 0,
-        "armamenti": 5
-      },
-      "overall": 2.2,
-      "note": "Controversie: environmental_disaster, greenwashing. Controversie: environmental_disaster, human_rights. Ethical Consumer: da evitare.",
-      "fonti": [
-        "Break Free From Plastic",
-        "Ethical Consumer"
-      ]
-    },
-    "glencore.com": {
-      "name": "Glencore",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 4,
-        "trasparenza": 3,
-        "governance": 1,
-        "comunita": 1,
-        "armamenti": 5
-      },
-      "overall": 2.3,
-      "note": "Controversie: corruption, environmental_disaster.",
-      "fonti": [
-        "ReCommon"
-      ]
-    },
-    "bancaetica.it": {
-      "name": "Banca Etica",
-      "scores": {
-        "ambiente": 9,
-        "diritti_lavoro": 9,
-        "trasparenza": 10,
-        "governance": 9,
-        "comunita": 10,
-        "armamenti": 10
-      },
-      "overall": 9.5,
-      "note": "Membro dell'alleanza globale per la finanza etica.",
-      "fonti": [
-        "Global Alliance for Banking on Values"
-      ]
-    },
-    "triodos.com": {
-      "name": "Triodos Bank",
-      "scores": {
-        "ambiente": 9,
-        "diritti_lavoro": 9,
-        "trasparenza": 10,
-        "governance": 9,
-        "comunita": 10,
-        "armamenti": 10
-      },
-      "overall": 9.5,
-      "note": "Membro dell'alleanza globale per la finanza etica.",
-      "fonti": [
-        "Global Alliance for Banking on Values"
-      ]
-    },
-    "pangaia.com": {
-      "name": "Pangaia",
-      "scores": {
-        "ambiente": 8.5,
-        "diritti_lavoro": 8.5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 6.8,
-        "armamenti": 5
-      },
-      "overall": 6.6,
-      "note": "Good On You: Great.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "veja-store.com": {
-      "name": "Veja",
-      "scores": {
-        "ambiente": 8.5,
-        "diritti_lavoro": 8.5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 6.8,
-        "armamenti": 5
-      },
-      "overall": 6.6,
-      "note": "Good On You: Great.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "people-tree.co.uk": {
-      "name": "People Tree",
-      "scores": {
-        "ambiente": 8.5,
-        "diritti_lavoro": 8.5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 6.8,
-        "armamenti": 5
-      },
-      "overall": 6.6,
-      "note": "Good On You: Great.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "armedangels.com": {
-      "name": "Armed Angels",
-      "scores": {
-        "ambiente": 8.5,
-        "diritti_lavoro": 8.5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 6.8,
-        "armamenti": 5
-      },
-      "overall": 6.6,
-      "note": "Good On You: Great.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "kotn.com": {
-      "name": "Kotn",
-      "scores": {
-        "ambiente": 8.5,
-        "diritti_lavoro": 8.5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 6.8,
-        "armamenti": 5
-      },
-      "overall": 6.6,
-      "note": "Good On You: Great.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "patagonia.com": {
-      "name": "Patagonia",
-      "scores": {
-        "ambiente": 6.8,
-        "diritti_lavoro": 6.8,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5.9,
-        "armamenti": 5
-      },
-      "overall": 5.9,
-      "note": "Good On You: Good.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "eileenfisher.com": {
-      "name": "Eileen Fisher",
-      "scores": {
-        "ambiente": 6.8,
-        "diritti_lavoro": 6.8,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5.9,
-        "armamenti": 5
-      },
-      "overall": 5.9,
-      "note": "Good On You: Good.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "everlane.com": {
-      "name": "Everlane",
-      "scores": {
-        "ambiente": 6.8,
-        "diritti_lavoro": 6.8,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5.9,
-        "armamenti": 5
-      },
-      "overall": 5.9,
-      "note": "Good On You: Good.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "thereformation.com": {
-      "name": "Reformation",
-      "scores": {
-        "ambiente": 6.8,
-        "diritti_lavoro": 6.8,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5.9,
-        "armamenti": 5
-      },
-      "overall": 5.9,
-      "note": "Good On You: Good.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "stellamccartney.com": {
-      "name": "Stella McCartney",
-      "scores": {
-        "ambiente": 6.8,
-        "diritti_lavoro": 6.8,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5.9,
-        "armamenti": 5
-      },
-      "overall": 5.9,
-      "note": "Good On You: Good.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "levi.com": {
-      "name": "Levi's",
-      "scores": {
-        "ambiente": 5,
+        "ambiente": 1,
         "diritti_lavoro": 5,
         "trasparenza": 5,
         "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5,
-      "note": "Good On You: It's a Start.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "adidas.com": {
-      "name": "Adidas",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5,
-      "note": "Good On You: It's a Start.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "cos.com": {
-      "name": "COS",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5,
-      "note": "Good On You: It's a Start.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "uniqlo.com": {
-      "name": "Uniqlo",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5,
-      "note": "Good On You: It's a Start.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "benetton.com": {
-      "name": "Benetton",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5,
-      "note": "Good On You: It's a Start.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "gap.com": {
-      "name": "Gap",
-      "scores": {
-        "ambiente": 5,
-        "diritti_lavoro": 5,
-        "trasparenza": 5,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5,
-      "note": "Good On You: It's a Start.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "nike.com": {
-      "name": "Nike",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 3.3,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 4.1,
-      "note": "Good On You: Not Good Enough.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "puma.com": {
-      "name": "Puma",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 3.3,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 4.1,
-      "note": "Good On You: Not Good Enough.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "mango.com": {
-      "name": "Mango",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 3.3,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 4.1,
-      "note": "Good On You: Not Good Enough.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "tommy.com": {
-      "name": "Tommy Hilfiger",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 3.3,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 4.1,
-      "note": "Good On You: Not Good Enough.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "calvinklein.com": {
-      "name": "Calvin Klein",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 3.3,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 4.1,
-      "note": "Good On You: Not Good Enough.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "lacoste.com": {
-      "name": "Lacoste",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 3.3,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 4.1,
-      "note": "Good On You: Not Good Enough.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "gucci.com": {
-      "name": "Gucci",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 3.3,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 4.1,
-      "note": "Good On You: Not Good Enough.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "prada.com": {
-      "name": "Prada",
-      "scores": {
-        "ambiente": 3.3,
-        "diritti_lavoro": 3.3,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 4.1,
-        "armamenti": 5
-      },
-      "overall": 4.1,
-      "note": "Good On You: Not Good Enough.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "boohoo.com": {
-      "name": "Boohoo",
-      "scores": {
-        "ambiente": 1.5,
-        "diritti_lavoro": 1.5,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 3.3,
-        "armamenti": 5
-      },
-      "overall": 3.4,
-      "note": "Good On You: We Avoid.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "prettylittlething.com": {
-      "name": "PrettyLittleThing",
-      "scores": {
-        "ambiente": 1.5,
-        "diritti_lavoro": 1.5,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 3.3,
-        "armamenti": 5
-      },
-      "overall": 3.4,
-      "note": "Good On You: We Avoid.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "fashionnova.com": {
-      "name": "Fashion Nova",
-      "scores": {
-        "ambiente": 1.5,
-        "diritti_lavoro": 1.5,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 3.3,
-        "armamenti": 5
-      },
-      "overall": 3.4,
-      "note": "Good On You: We Avoid.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "temu.com": {
-      "name": "Temu",
-      "scores": {
-        "ambiente": 1.5,
-        "diritti_lavoro": 1.5,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 3.3,
-        "armamenti": 5
-      },
-      "overall": 3.4,
-      "note": "Good On You: We Avoid.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "romwe.com": {
-      "name": "Romwe",
-      "scores": {
-        "ambiente": 1.5,
-        "diritti_lavoro": 1.5,
-        "trasparenza": 4,
-        "governance": 5,
-        "comunita": 3.3,
-        "armamenti": 5
-      },
-      "overall": 3.4,
-      "note": "Good On You: We Avoid.",
-      "fonti": [
-        "Good On You"
-      ]
-    },
-    "ecosia.org": {
-      "name": "Ecosia",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "duckduckgo.com": {
-      "name": "DuckDuckGo",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "fairphone.com": {
-      "name": "Fairphone",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "tonysschocolonely.com": {
-      "name": "Tony's Chocolonely",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "divinechocolate.com": {
-      "name": "Divine Chocolate",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "cafedirect.co.uk": {
-      "name": "Cafedirect",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "lush.com": {
-      "name": "Lush",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "bodyshop.com": {
-      "name": "The Body Shop",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "whocaresecowash.com": {
-      "name": "Who Gives A Crap",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "ecover.com": {
-      "name": "Ecover",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "riverford.co.uk": {
-      "name": "Riverford",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "suma.coop": {
-      "name": "Suma",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "triodos.co.uk": {
-      "name": "Triodos Bank",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "cooperativebank.co.uk": {
-      "name": "The Co-operative Bank",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "ecology.co.uk": {
-      "name": "Ecology Building Society",
-      "scores": {
-        "ambiente": 7,
-        "diritti_lavoro": 7,
-        "trasparenza": 6.5,
-        "governance": 6,
-        "comunita": 7,
-        "armamenti": 5
-      },
-      "overall": 6.4,
-      "note": "Ethical Consumer: Best Buy.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "unilever.com": {
-      "name": "Unilever",
-      "scores": {
-        "ambiente": 3,
-        "diritti_lavoro": 3,
-        "trasparenza": 6,
-        "governance": 4,
-        "comunita": 1,
-        "armamenti": 5
-      },
-      "overall": 3.7,
-      "note": "Controversie: environmental_disaster. Ethical Consumer: da evitare. CDP Climate A List.",
-      "fonti": [
-        "Ethical Consumer",
-        "CDP"
-      ]
-    },
-    "pg.com": {
-      "name": "Procter & Gamble",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 1,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 0,
-        "armamenti": 5
-      },
-      "overall": 2.5,
-      "note": "Controversie: environmental_disaster, human_rights. Ethical Consumer: da evitare.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "pepsico.com": {
-      "name": "PepsiCo",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 3,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 1,
-        "armamenti": 5
-      },
-      "overall": 3,
-      "note": "Controversie: environmental_disaster. Ethical Consumer: da evitare.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "mcdonalds.com": {
-      "name": "McDonald's",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 0,
-        "trasparenza": 5,
-        "governance": 3,
-        "comunita": 1,
-        "armamenti": 5
-      },
-      "overall": 2.3,
-      "note": "Controversie: environmental_disaster, labor_violation. Ethical Consumer: da evitare.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "kfc.com": {
-      "name": "KFC",
-      "scores": {
-        "ambiente": 0,
-        "diritti_lavoro": 3,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 1,
-        "armamenti": 5
-      },
-      "overall": 3,
-      "note": "Controversie: environmental_disaster. Ethical Consumer: da evitare.",
-      "fonti": [
-        "Ethical Consumer"
-      ]
-    },
-    "starbucks.com": {
-      "name": "Starbucks",
-      "scores": {
-        "ambiente": 3,
-        "diritti_lavoro": 0,
-        "trasparenza": 2,
-        "governance": 1,
         "comunita": 3,
         "armamenti": 5
       },
-      "overall": 2.3,
-      "note": "Controversie: tax_evasion, labor_violation. Ethical Consumer: da evitare.",
+      "overall": 4,
+      "note": "Controversie: environmental_disaster. Uso intensivo di olio di palma e nocciole. Critiche su lavoro minorile nella filiera cacao; aderente a Rainforest Alliance dal 2020.",
       "fonti": [
-        "Ethical Consumer"
+        "italian"
       ]
     },
-    "bat.com": {
-      "name": "British American Tobacco",
+    "lavazza.com": {
+      "name": "Lavazza",
       "scores": {
-        "ambiente": 3,
-        "diritti_lavoro": 2,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 0,
+        "ambiente": 6.5,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
         "armamenti": 5
       },
-      "overall": 3.2,
-      "note": "Ethical Consumer: da evitare.",
+      "overall": 5.4,
+      "note": "CDP Climate grade: B. Lavazza Foundation su progetti sociali. Certificazione Rainforest Alliance su parte del caffe'.",
       "fonti": [
-        "Ethical Consumer"
+        "CDP"
       ]
     },
-    "pmi.com": {
-      "name": "Philip Morris",
+    "illy.com": {
+      "name": "Illycaffe'",
       "scores": {
-        "ambiente": 3,
-        "diritti_lavoro": 2,
-        "trasparenza": 5,
-        "governance": 4,
-        "comunita": 0,
+        "ambiente": 7.5,
+        "diritti_lavoro": 7.5,
+        "trasparenza": 7,
+        "governance": 7,
+        "comunita": 7.5,
         "armamenti": 5
       },
-      "overall": 3.2,
-      "note": "Ethical Consumer: da evitare.",
+      "overall": 6.9,
+      "note": "B Corp certificata italiana. Certificata B Corp dal 2021. Modello di caffe' etico con filiera trasparente.",
       "fonti": [
-        "Ethical Consumer"
+        "B Corp Directory"
       ]
     },
-    "jti.com": {
-      "name": "Japan Tobacco International",
+    "granarolo.it": {
+      "name": "Granarolo",
       "scores": {
-        "ambiente": 3,
-        "diritti_lavoro": 2,
+        "ambiente": 5,
+        "diritti_lavoro": 5,
         "trasparenza": 5,
-        "governance": 4,
-        "comunita": 0,
+        "governance": 5,
+        "comunita": 5,
         "armamenti": 5
       },
-      "overall": 3.2,
-      "note": "Ethical Consumer: da evitare.",
+      "overall": 5,
+      "note": "Cooperativa di produttori. Report sostenibilita' annuale, ancora criticita' su benessere animale.",
+      "fonti": []
+    },
+    "parmalat.com": {
+      "name": "Parmalat (Lactalis)",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 3,
+        "governance": 1,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4,
+      "note": "Controversie: corruption. Storica bancarotta Parmalat (2003). Ora controllata dal gruppo francese Lactalis, critiche su trasparenza.",
       "fonti": [
-        "Ethical Consumer"
+        "italian"
       ]
     },
-    "innocentdrinks.co.uk": {
-      "name": "Innocent Drinks",
+    "perfettivanmelle.com": {
+      "name": "Perfetti Van Melle",
       "scores": {
         "ambiente": 5,
         "diritti_lavoro": 5,
@@ -1591,12 +129,42 @@
       },
       "overall": 5,
       "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "campari.com": {
+      "name": "Campari Group",
+      "scores": {
+        "ambiente": 6.5,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.4,
+      "note": "CDP Climate grade: B.",
       "fonti": [
-        "Ethical Consumer"
+        "CDP"
       ]
     },
-    "benandjerry.com": {
-      "name": "Ben & Jerry's",
+    "san-pellegrino.com": {
+      "name": "San Pellegrino (Nestle)",
+      "scores": {
+        "ambiente": 1,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 3,
+        "armamenti": 5
+      },
+      "overall": 4,
+      "note": "Controversie: environmental_disaster. Di proprieta' Nestle. Controversie sull'uso di acqua e sulle concessioni.",
+      "fonti": [
+        "italian"
+      ]
+    },
+    "cirio.it": {
+      "name": "Cirio",
       "scores": {
         "ambiente": 5,
         "diritti_lavoro": 5,
@@ -1607,153 +175,269 @@
       },
       "overall": 5,
       "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "mutti-parma.com": {
+      "name": "Mutti",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "esselunga.it": {
+      "name": "Esselunga",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Retailer privato. Partecipa a progetti contro spreco alimentare.",
+      "fonti": []
+    },
+    "e-coop.it": {
+      "name": "Coop Italia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 6.5,
+        "trasparenza": 5,
+        "governance": 6.5,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 5.8,
+      "note": "Modello cooperativo. Modello cooperativo. Prodotti Coop con standard interni su filiera e ambiente. Tra i leader GDO per sostenibilita'.",
+      "fonti": []
+    },
+    "conad.it": {
+      "name": "Conad",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 6.5,
+        "trasparenza": 5,
+        "governance": 6.5,
+        "comunita": 7,
+        "armamenti": 5
+      },
+      "overall": 5.8,
+      "note": "Modello cooperativo.",
+      "fonti": []
+    },
+    "carrefour.it": {
+      "name": "Carrefour Italia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "lidl.it": {
+      "name": "Lidl Italia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 2,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.3,
+      "note": "Controversie: labor_violation. Gruppo Schwarz. Alcune critiche su condizioni di lavoro nei magazzini europei.",
       "fonti": [
-        "Ethical Consumer"
+        "italian"
       ]
     },
-    "microsoft.com": {
-      "name": "Microsoft",
+    "eurospin.it": {
+      "name": "Eurospin",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "md.it": {
+      "name": "MD Discount",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "eataly.com": {
+      "name": "Eataly",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "bpm.it": {
+      "name": "Banco BPM",
+      "scores": {
+        "ambiente": 3.7,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4.6,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4.7,
+      "note": "Finanza fossile: 12 mld USD (2016-2023).",
+      "fonti": [
+        "Banking on Climate Chaos 2024"
+      ]
+    },
+    "bper.it": {
+      "name": "BPER Banca",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "mps.it": {
+      "name": "Monte dei Paschi di Siena",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 3,
+        "governance": 1,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 4,
+      "note": "Controversie: corruption. Salvataggio pubblico nel 2017. Storia di scandali finanziari (Mps-Antonveneta).",
+      "fonti": [
+        "italian"
+      ]
+    },
+    "mediolanum.com": {
+      "name": "Banca Mediolanum",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "fineco.it": {
+      "name": "FinecoBank",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "generali.com": {
+      "name": "Assicurazioni Generali",
+      "scores": {
+        "ambiente": 7.5,
         "diritti_lavoro": 5,
         "trasparenza": 6,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
+      "overall": 5.6,
+      "note": "CDP Climate grade: A-. CDP A- su climate. Impegno al disinvestimento progressivo dal carbone entro 2030.",
       "fonti": [
         "CDP"
       ]
     },
-    "loreal.com": {
-      "name": "L'Oreal",
+    "unipol.it": {
+      "name": "Unipol",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "posteitaliane.it": {
+      "name": "Poste Italiane",
+      "scores": {
+        "ambiente": 6.5,
         "diritti_lavoro": 5,
         "trasparenza": 6,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
+      "overall": 5.4,
+      "note": "CDP Climate grade: B.",
       "fonti": [
         "CDP"
       ]
     },
-    "hp.com": {
-      "name": "HP",
+    "cdp.it": {
+      "name": "Cassa Depositi e Prestiti",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 6,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "alphabet.com": {
-      "name": "Alphabet (Google)",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "sony.com": {
-      "name": "Sony",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "philips.com": {
-      "name": "Philips",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "danone.com": {
-      "name": "Danone",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "nvidia.com": {
-      "name": "NVIDIA",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "ferrari.com": {
-      "name": "Ferrari",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
     },
     "enel.com": {
       "name": "Enel",
@@ -1766,282 +450,772 @@
         "armamenti": 5
       },
       "overall": 5.7,
-      "note": "CDP Climate A List.",
+      "note": "CDP Climate A List. Gia' in CDP A-list. Leader nella transizione energetica con Enel Green Power.",
       "fonti": [
         "CDP"
       ]
     },
-    "iberdrola.com": {
-      "name": "Iberdrola",
+    "a2a.eu": {
+      "name": "A2A",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 7.5,
         "diritti_lavoro": 5,
         "trasparenza": 6,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
+      "overall": 5.6,
+      "note": "CDP Climate grade: A-.",
       "fonti": [
         "CDP"
       ]
     },
-    "volvocars.com": {
-      "name": "Volvo Cars",
+    "hera.it": {
+      "name": "Hera",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 7.5,
         "diritti_lavoro": 5,
         "trasparenza": 6,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
+      "overall": 5.6,
+      "note": "CDP Climate grade: A-.",
       "fonti": [
         "CDP"
       ]
     },
-    "samsung.com": {
-      "name": "Samsung",
+    "iren.it": {
+      "name": "Iren",
       "scores": {
-        "ambiente": 8,
+        "ambiente": 6.5,
         "diritti_lavoro": 5,
         "trasparenza": 6,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
+      "overall": 5.4,
+      "note": "CDP Climate grade: B.",
       "fonti": [
         "CDP"
       ]
     },
-    "lvmh.com": {
-      "name": "LVMH",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "kering.com": {
-      "name": "Kering",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "deutschetelekom.com": {
-      "name": "Deutsche Telekom",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "orange.com": {
-      "name": "Orange",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "vodafone.com": {
-      "name": "Vodafone",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "santander.com": {
-      "name": "Santander",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "allianz.com": {
-      "name": "Allianz",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "axa.com": {
-      "name": "AXA",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "novartis.com": {
-      "name": "Novartis",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "roche.com": {
-      "name": "Roche",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "astrazeneca.com": {
-      "name": "AstraZeneca",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "gsk.com": {
-      "name": "GlaxoSmithKline",
-      "scores": {
-        "ambiente": 8,
-        "diritti_lavoro": 5,
-        "trasparenza": 6,
-        "governance": 5,
-        "comunita": 5,
-        "armamenti": 5
-      },
-      "overall": 5.7,
-      "note": "CDP Climate A List.",
-      "fonti": [
-        "CDP"
-      ]
-    },
-    "tesla.com": {
-      "name": "Tesla",
+    "snam.it": {
+      "name": "Snam",
       "scores": {
         "ambiente": 2,
         "diritti_lavoro": 5,
-        "trasparenza": 3.5,
+        "trasparenza": 5,
         "governance": 5,
+        "comunita": 4,
+        "armamenti": 5
+      },
+      "overall": 4.3,
+      "note": "Settore combustibili fossili. Infrastrutture gas. Transizione annunciata verso idrogeno.",
+      "fonti": [
+        "Carbon Majors"
+      ]
+    },
+    "terna.it": {
+      "name": "Terna",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.6,
+      "note": "CDP Climate grade: A-.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "acea.it": {
+      "name": "Acea",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "saipem.com": {
+      "name": "Saipem",
+      "scores": {
+        "ambiente": 2,
+        "diritti_lavoro": 5,
+        "trasparenza": 3,
+        "governance": 1,
+        "comunita": 4,
+        "armamenti": 5
+      },
+      "overall": 3.3,
+      "note": "Settore combustibili fossili. Controversie: corruption. Storici scandali su tangenti Algeria. Servizi petroliferi.",
+      "fonti": [
+        "Carbon Majors",
+        "italian"
+      ]
+    },
+    "tim.it": {
+      "name": "TIM (Telecom Italia)",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.6,
+      "note": "CDP Climate grade: A-.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "vodafone.it": {
+      "name": "Vodafone Italia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "windtre.it": {
+      "name": "WindTre",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "iliad.it": {
+      "name": "Iliad Italia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "fastweb.it": {
+      "name": "Fastweb",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "trenitalia.com": {
+      "name": "Trenitalia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "italotreno.it": {
+      "name": "Italo (NTV)",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "autostrade.it": {
+      "name": "Autostrade per l'Italia",
+      "scores": {
+        "ambiente": 1,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 3,
+        "armamenti": 5
+      },
+      "overall": 4,
+      "note": "Controversie: environmental_disaster. Crollo del Ponte Morandi (2018). Gestione passata criticata, cambio di controllo nel 2022.",
+      "fonti": [
+        "italian"
+      ]
+    },
+    "alitalia.com": {
+      "name": "ITA Airways",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "atlantia.com": {
+      "name": "Atlantia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "armani.com": {
+      "name": "Giorgio Armani",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 2,
+        "trasparenza": 5,
+        "governance": 4,
         "comunita": 5,
         "armamenti": 5
       },
       "overall": 4.3,
-      "note": "CDP Climate: F (non disclosure).",
+      "note": "Controversie: labor_violation. Indagini 2024 su caporalato nella filiera di confezionamento.",
       "fonti": [
-        "CDP"
+        "italian"
       ]
     },
-    "berkshirehathaway.com": {
-      "name": "Berkshire Hathaway",
+    "prada.com": {
+      "name": "Prada Group",
       "scores": {
-        "ambiente": 2,
+        "ambiente": 5,
         "diritti_lavoro": 5,
-        "trasparenza": 3.5,
+        "trasparenza": 5,
         "governance": 5,
         "comunita": 5,
         "armamenti": 5
       },
-      "overall": 4.3,
-      "note": "CDP Climate: F (non disclosure).",
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "moncler.com": {
+      "name": "Moncler",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.6,
+      "note": "CDP Climate grade: A-.",
       "fonti": [
         "CDP"
       ]
+    },
+    "luxottica.com": {
+      "name": "Luxottica (EssilorLuxottica)",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.6,
+      "note": "CDP Climate grade: A-.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "geox.com": {
+      "name": "Geox",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "diesel.com": {
+      "name": "Diesel",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "benetton.com": {
+      "name": "Benetton Group",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Rana Plaza (2013). Ha firmato l'Accord on Fire and Building Safety.",
+      "fonti": []
+    },
+    "calzedonia.com": {
+      "name": "Calzedonia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "ovs.it": {
+      "name": "OVS",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "yoox.com": {
+      "name": "YOOX Net-a-Porter",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "ferrari.com": {
+      "name": "Ferrari",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List. Gia' in CDP A-list.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "stellantis.com": {
+      "name": "Stellantis",
+      "scores": {
+        "ambiente": 6,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.3,
+      "note": "CDP Climate grade: B-. Produttore FCA-PSA. Transizione elettrica in corso.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "pirelli.com": {
+      "name": "Pirelli",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 6,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5.7,
+      "note": "CDP Climate A List.",
+      "fonti": [
+        "CDP"
+      ]
+    },
+    "ducati.com": {
+      "name": "Ducati",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "piaggio.com": {
+      "name": "Piaggio",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "lamborghini.com": {
+      "name": "Lamborghini",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "leonardo.com": {
+      "name": "Leonardo",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi. Gia' classificato produttore armamenti.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "fincantieri.com": {
+      "name": "Fincantieri",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 5,
+        "armamenti": 0
+      },
+      "overall": 4,
+      "note": "Produttore di armamenti controversi. Cantieristica navale civile e militare.",
+      "fonti": [
+        "Don't Bank on the Bomb 2024"
+      ]
+    },
+    "rwmitalia.com": {
+      "name": "RWM Italia",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 3,
+        "trasparenza": 5,
+        "governance": 4,
+        "comunita": 2,
+        "armamenti": 0
+      },
+      "overall": 3.2,
+      "note": "Produttore di armamenti controversi. Controversie: human_rights. Produzione bombe esportate in Arabia Saudita/Yemen (inchieste giornalistiche).",
+      "fonti": [
+        "Don't Bank on the Bomb 2024",
+        "italian"
+      ]
+    },
+    "rai.it": {
+      "name": "RAI",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "mediaset.it": {
+      "name": "Mediaset (MFE)",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "gedi.it": {
+      "name": "GEDI (Repubblica/Stampa)",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "rcsmediagroup.it": {
+      "name": "RCS MediaGroup",
+      "scores": {
+        "ambiente": 5,
+        "diritti_lavoro": 5,
+        "trasparenza": 5,
+        "governance": 5,
+        "comunita": 5,
+        "armamenti": 5
+      },
+      "overall": 5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "treedom.net": {
+      "name": "Treedom",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 7.5,
+        "trasparenza": 7,
+        "governance": 7,
+        "comunita": 7.5,
+        "armamenti": 5
+      },
+      "overall": 6.9,
+      "note": "B Corp certificata italiana. B Corp. Piattaforma per piantare alberi verificati.",
+      "fonti": [
+        "B Corp Directory"
+      ]
+    },
+    "mondora.com": {
+      "name": "Mondora",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 7.5,
+        "trasparenza": 7,
+        "governance": 7,
+        "comunita": 7.5,
+        "armamenti": 5
+      },
+      "overall": 6.9,
+      "note": "B Corp certificata italiana.",
+      "fonti": [
+        "B Corp Directory"
+      ]
+    },
+    "nativalab.com": {
+      "name": "Nativa",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 7.5,
+        "trasparenza": 7,
+        "governance": 7,
+        "comunita": 7.5,
+        "armamenti": 5
+      },
+      "overall": 6.9,
+      "note": "B Corp certificata italiana. Prima B Corp italiana. Consulenza su sostenibilita'.",
+      "fonti": [
+        "B Corp Directory"
+      ]
+    },
+    "alessi.com": {
+      "name": "Alessi",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 7.5,
+        "trasparenza": 7,
+        "governance": 7,
+        "comunita": 7.5,
+        "armamenti": 5
+      },
+      "overall": 6.9,
+      "note": "B Corp certificata italiana.",
+      "fonti": [
+        "B Corp Directory"
+      ]
+    },
+    "fratellicarli.com": {
+      "name": "Fratelli Carli",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 7.5,
+        "trasparenza": 7,
+        "governance": 7,
+        "comunita": 7.5,
+        "armamenti": 5
+      },
+      "overall": 6.9,
+      "note": "B Corp certificata italiana.",
+      "fonti": [
+        "B Corp Directory"
+      ]
+    },
+    "davines.com": {
+      "name": "Davines",
+      "scores": {
+        "ambiente": 7.5,
+        "diritti_lavoro": 7.5,
+        "trasparenza": 7,
+        "governance": 7,
+        "comunita": 7.5,
+        "armamenti": 5
+      },
+      "overall": 6.9,
+      "note": "B Corp certificata italiana.",
+      "fonti": [
+        "B Corp Directory"
+      ]
+    },
+    "altroconsumo.it": {
+      "name": "Altroconsumo",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 8,
+        "governance": 5,
+        "comunita": 9,
+        "armamenti": 10
+      },
+      "overall": 7.5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "slowfood.it": {
+      "name": "Slow Food",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 8,
+        "governance": 5,
+        "comunita": 9,
+        "armamenti": 10
+      },
+      "overall": 7.5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "legambiente.it": {
+      "name": "Legambiente",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 5,
+        "trasparenza": 8,
+        "governance": 5,
+        "comunita": 9,
+        "armamenti": 10
+      },
+      "overall": 7.5,
+      "note": "Dati aggregati da fonti pubbliche.",
+      "fonti": []
+    },
+    "altromercato.it": {
+      "name": "Altromercato",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 9,
+        "trasparenza": 8,
+        "governance": 5,
+        "comunita": 9,
+        "armamenti": 5
+      },
+      "overall": 7.3,
+      "note": "Commercio equo e solidale. Rete italiana del commercio equo solidale.",
+      "fonti": []
+    },
+    "libera.it": {
+      "name": "Libera Terra",
+      "scores": {
+        "ambiente": 8,
+        "diritti_lavoro": 9,
+        "trasparenza": 8,
+        "governance": 5,
+        "comunita": 9,
+        "armamenti": 5
+      },
+      "overall": 7.3,
+      "note": "Commercio equo e solidale. Cooperative su terreni confiscati alle mafie.",
+      "fonti": []
     }
   }
 }

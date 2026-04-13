@@ -11,6 +11,7 @@ import { fetchCurated } from "./sources/curated.mjs";
 import { fetchGoodOnYou } from "./sources/goodonyou.mjs";
 import { fetchEthicalConsumer } from "./sources/ethicalconsumer.mjs";
 import { fetchCDP } from "./sources/cdp.mjs";
+import { fetchItalianBrands } from "./sources/italian-brands.mjs";
 import {
   baselineScores,
   applyBCorp,
@@ -83,6 +84,13 @@ async function main() {
     const cdp = await fetchCDP();
     records.push(...cdp);
     console.log(`  ${cdp.length} aziende con grade climate\n`);
+  }
+
+  if (!ONLY || ONLY === "italian") {
+    console.log("Carico brand italiani...");
+    const it = await fetchItalianBrands();
+    records.push(...it);
+    console.log(`  ${it.length} brand italiani\n`);
   }
 
   console.log(`Totale record grezzi: ${records.length}\n`);
@@ -215,6 +223,43 @@ function scoreEntries(entries) {
       scores.armamenti = 10;
       fontiSet.add("Global Alliance for Banking on Values");
       notes.push("Membro dell'alleanza globale per la finanza etica.");
+    }
+
+    if (e.positive === "bcorp_italian") {
+      scores.ambiente = Math.max(scores.ambiente, 7.5);
+      scores.diritti_lavoro = Math.max(scores.diritti_lavoro, 7.5);
+      scores.comunita = Math.max(scores.comunita, 7.5);
+      scores.governance = Math.max(scores.governance, 7);
+      scores.trasparenza = Math.max(scores.trasparenza, 7);
+      fontiSet.add("B Corp Directory");
+      notes.push("B Corp certificata italiana.");
+    }
+
+    if (e.positive === "cooperative") {
+      scores.diritti_lavoro = Math.max(scores.diritti_lavoro, 6.5);
+      scores.comunita = Math.max(scores.comunita, 7);
+      scores.governance = Math.max(scores.governance, 6.5);
+      notes.push("Modello cooperativo.");
+    }
+
+    if (e.positive === "fair_trade") {
+      scores.ambiente = Math.max(scores.ambiente, 8);
+      scores.diritti_lavoro = Math.max(scores.diritti_lavoro, 9);
+      scores.comunita = Math.max(scores.comunita, 9);
+      scores.trasparenza = Math.max(scores.trasparenza, 8);
+      notes.push("Commercio equo e solidale.");
+    }
+
+    if (e.positive === "ngo" || e.positive === "consumer_advocacy") {
+      scores.ambiente = Math.max(scores.ambiente, 8);
+      scores.comunita = Math.max(scores.comunita, 9);
+      scores.trasparenza = Math.max(scores.trasparenza, 8);
+      scores.armamenti = 10;
+    }
+
+    // Usa la nota libera se fornita (brand italiani)
+    if (e.note && e.source === "italian") {
+      notes.push(e.note);
     }
   }
 
